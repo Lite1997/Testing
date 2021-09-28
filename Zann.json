@@ -43,7 +43,7 @@
 	}
   },
   "upgrades": {
-    "commands": [
+    "Command": [
       {
         "name": "Racketeering",
         "image": "http://cloud-3.steamusercontent.com/ugc/1022824296872635141/571DEBE31636523DED5AD040A707569E7EB4C926/",
