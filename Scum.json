@@ -36,6 +36,44 @@
           }
         ]
       }],
+      "Operative": [
+        {
+          "name": "Urai Fen",
+          "title": "Loyal Lieutenant",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738331206585619/A5DBFAC61D9C16862650C9B512C261C0979D7784/",
+          "size": "small",
+          "type": "Trooper",
+          "points": 90,
+          "speed": 2,
+          "upgrades": {
+            "Training": 2,
+            "Illicit": 1,
+            "Gear": 1
+          },
+          "minis": [
+            {
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696984835649865/8FC3F2E4E22555D72BDF283AD0E686537F33A043/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696984835650100/057E08B03AAE7CA89B585D8916BB25023B63341A/"
+            }
+          ],
+          "commands": [
+            {
+              "name": "Strike and Fade",
+              "image": "http://cloud-3.steamusercontent.com/ugc/1638738331206588196/54AE8C8C15416B4C9135563AC3BCD0258E37C02F/",
+              "pip": 1
+            },
+            {
+              "name": "The Consortium Commands It",
+              "image": "http://cloud-3.steamusercontent.com/ugc/1638738331206588836/932978DD48DD188DE7ACADCB98067C26CC0EDC4F/",
+              "pip": 2
+            },
+            {
+              "name": "No Mission is too Dangerous",
+              "image": "http://cloud-3.steamusercontent.com/ugc/1638738331206587234/A3E0872273A0D777E35AEF92DEBE8A2A6E9AA9C1/",
+              "pip": 3
+            }
+          ]
+        }],
       "Special Forces": [{
         "name": "Mercenary Assault Squad",
         "image": "http://cloud-3.steamusercontent.com/ugc/1022824296877691191/8DF3A2811749C281B0FA5A3DCA7B4F8AABEDB0B0/",
