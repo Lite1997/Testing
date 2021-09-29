@@ -40,7 +40,7 @@
         {
           "name": "Urai Fen",
           "title": "Loyal Lieutenant",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1638738331206585619/A5DBFAC61D9C16862650C9B512C261C0979D7784/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603739804/D72F622C8E261048B1CC536B541DC40A0D00E9C0/",
           "size": "small",
           "type": "Trooper",
           "points": 90,
@@ -59,17 +59,17 @@
           "commands": [
             {
               "name": "Strike and Fade",
-              "image": "http://cloud-3.steamusercontent.com/ugc/1638738331206588196/54AE8C8C15416B4C9135563AC3BCD0258E37C02F/",
+              "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603746185/5104E33641965A6AC045E718C49E4EE8AB49C78B/",
               "pip": 1
             },
             {
               "name": "The Consortium Commands It",
-              "image": "http://cloud-3.steamusercontent.com/ugc/1638738331206588836/932978DD48DD188DE7ACADCB98067C26CC0EDC4F/",
+              "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603741053/4E94295DE369FC225ADEE820CC778AC43877B9A3/",
               "pip": 2
             },
             {
               "name": "No Mission is too Dangerous",
-              "image": "http://cloud-3.steamusercontent.com/ugc/1638738331206587234/A3E0872273A0D777E35AEF92DEBE8A2A6E9AA9C1/",
+              "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603740586/0EFE710BD47E248062CA8A8B1071967CD9E3BB96/",
               "pip": 3
             }
           ]
