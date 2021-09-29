@@ -4,7 +4,7 @@
       "Commander": [{
         "name": "Tyber Zann",
         "title": "Cold, Methodical, and Ruthless",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1021696642365726426/6C643C4CDED20E0AD9C608320838340518E23209/",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603829039/A3ADED2A007CB1D75158D7B0FDC5F868FE750644/",
         "size": "small",
         "type": "Trooper",
         "points": 140,
@@ -21,17 +21,17 @@
         }],
         "commands": [{
             "name": "Orbital Bombardment",
-            "image": "http://cloud-3.steamusercontent.com/ugc/1021696642365730116/C2710668C06B4AF19BE8F470A73ABB9288102D45/",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603829550/6430E393F0DB74C8938A6FE00E68694059261B8B/",
             "pip": 1
           },
           {
             "name": "Corruption is My Weapon",
-            "image": "http://cloud-3.steamusercontent.com/ugc/1021696827919795635/EF3551FAAB549E5DC2543AC50BEFBF1FCA59F8C7/",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603829893/707C601FD89303F407F6AE8CC3F989F98067522E/",
             "pip": 2
           },
           {
             "name": "Everyone Has a Price",
-            "image": "http://cloud-3.steamusercontent.com/ugc/1022824544169539052/873F1BE6567D7268064A19E10FE11C7543526444/",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603830223/3CF5993C5C1601D4BD1B8E67A04278FD10A8F94B/",
             "pip": 3
           }
         ]
@@ -114,7 +114,7 @@
       "image": "http://cloud-3.steamusercontent.com/ugc/1021698013227669732/C929D5A72E913A380BD66260EE3271B76F2F5BC1/",
       "flip": {
         "name": "DXR-6 Power Shot Config",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1021698013227669927/2D4767E9923F7E5D15F8CF91F14ECEEBADD0C64D/"
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603875265/EF644A8E1C5754D1A2D9BB5917F1BBE2AD7E9622/"
       },
       "points": 8,
       "restrictions": {
@@ -125,7 +125,7 @@
     }],
     "Command": [{
       "name": "Racketeering",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1022824296872635141/571DEBE31636523DED5AD040A707569E7EB4C926/",
+      "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603830651/F966FBACC01B49CD4821BC2B57FB3C81C0EA0768/",
       "points": 5,
       "restrictions": {
         "include": {
@@ -135,7 +135,7 @@
     }],
     "Heavy Weapon": [{
         "name": "ACP Trooper",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1021698013227667298/A012F630995368CE2653D2C83A86FDEB99891363/",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603863757/6A7F8DAB5820EC37B5DF5307A719671793BA1EE6/",
         "mini": {
           "mesh": "http://cloud-3.steamusercontent.com/ugc/1021698068156270983/519A43ACE1F5461D51AA1BA81ADF4A5C37BEF9E4/",
           "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021698068156271135/318D90BCDE4E3E362797A38823A21FF17FAF651E/"
@@ -149,7 +149,7 @@
       },
       {
         "name": "Concussion Rifle Trooper",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1021698013227668108/4533A80075F72A2A7782F0A32F99F0B614DF4CF9/",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603864161/3C6033DF633BA02EF23B0C8F8931293D830EA70E/",
         "mini": {
           "mesh": "http://cloud-3.steamusercontent.com/ugc/1021698068156271785/233649FA9B56D451B97E71E706C777AD529B0810/",
           "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021698068156271944/671F0E7483F7DA3D92D551E5042698EE06E510EB/"
@@ -163,7 +163,7 @@
       },
       {
         "name": "Mercenary Assault Trooper",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1021698013227664557/2669E27F0CDE54E3B1274E1AE3EF56B1B453D8BD/",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603864652/0A0D815A3219936434CE0812C7DCD486060B350A/",
         "mini": {
           "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365878231/A04BECDA5804E0A38FF974528C70AB5AAAE4B715/",
           "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365878394/8AD2A611C51D78184D8E4204A720C59EEC2C7755/"
@@ -178,7 +178,7 @@
     ],
     "Illicit": [{
       "name": "Glitterstim",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1021697231133246530/FEC08B71B555234AA9CBFA0475AD2BA57E2F5A7E/",
+      "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603891098/84A7F8CE1B7AEA3F5B65079E0EB56B1FB18E920C/",
       "points": 5
     }]
   }
