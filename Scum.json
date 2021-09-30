@@ -2,41 +2,41 @@
   "units": {
     "Scum": {
       "Commander": [{
-        "name": "Tyber Zann",
-        "title": "Cold, Methodical, and Ruthless",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603829039/A3ADED2A007CB1D75158D7B0FDC5F868FE750644/",
-        "size": "small",
-        "type": "Trooper",
-        "points": 140,
-        "speed": 2,
-        "upgrades": {
-          "Command": 1,
-          "Training": 1,
-          "Illicit": 1,
-          "Gear": 1
+          "name": "Tyber Zann",
+          "title": "Cold, Methodical, and Ruthless",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603829039/A3ADED2A007CB1D75158D7B0FDC5F868FE750644/",
+          "size": "small",
+          "type": "Trooper",
+          "points": 140,
+          "speed": 2,
+          "upgrades": {
+            "Command": 1,
+            "Training": 1,
+            "Illicit": 1,
+            "Gear": 1
+          },
+          "minis": [{
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365775807/337D2A5009DD4A91F0A469B418D4C77867FDF52D/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365776115/8606DE28865E723D2343D17F890A99959E25AC8F/"
+          }],
+          "commands": [{
+              "name": "Orbital Bombardment",
+              "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603829550/6430E393F0DB74C8938A6FE00E68694059261B8B/",
+              "pip": 1
+            },
+            {
+              "name": "Corruption is My Weapon",
+              "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603829893/707C601FD89303F407F6AE8CC3F989F98067522E/",
+              "pip": 2
+            },
+            {
+              "name": "Everyone Has a Price",
+              "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603830223/3CF5993C5C1601D4BD1B8E67A04278FD10A8F94B/",
+              "pip": 3
+            }
+          ]
         },
-        "minis": [{
-          "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365775807/337D2A5009DD4A91F0A469B418D4C77867FDF52D/",
-          "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365776115/8606DE28865E723D2343D17F890A99959E25AC8F/"
-        }],
-        "commands": [{
-            "name": "Orbital Bombardment",
-            "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603829550/6430E393F0DB74C8938A6FE00E68694059261B8B/",
-            "pip": 1
-          },
-          {
-            "name": "Corruption is My Weapon",
-            "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603829893/707C601FD89303F407F6AE8CC3F989F98067522E/",
-            "pip": 2
-          },
-          {
-            "name": "Everyone Has a Price",
-            "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603830223/3CF5993C5C1601D4BD1B8E67A04278FD10A8F94B/",
-            "pip": 3
-          }
-        ]
-      },
-      {
+        {
           "name": "Urai Fen",
           "title": "Loyal Lieutenant",
           "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603739804/D72F622C8E261048B1CC536B541DC40A0D00E9C0/",
@@ -49,14 +49,11 @@
             "Illicit": 1,
             "Gear": 1
           },
-          "minis": [
-            {
-              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696984835649865/8FC3F2E4E22555D72BDF283AD0E686537F33A043/",
-              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696984835650100/057E08B03AAE7CA89B585D8916BB25023B63341A/"
-            }
-          ],
-          "commands": [
-            {
+          "minis": [{
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696984835649865/8FC3F2E4E22555D72BDF283AD0E686537F33A043/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696984835650100/057E08B03AAE7CA89B585D8916BB25023B63341A/"
+          }],
+          "commands": [{
               "name": "Strike and Fade",
               "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603746185/5104E33641965A6AC045E718C49E4EE8AB49C78B/",
               "pip": 1
@@ -72,7 +69,8 @@
               "pip": 3
             }
           ]
-        }],
+        }
+      ],
       "Special Forces": [{
         "name": "Mercenary Assault Squad",
         "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603860984/F98ED756F3CACAF134A45807F21E4C113F8115DF/",
@@ -176,9 +174,35 @@
       }
     ],
     "Illicit": [{
-      "name": "Glitterstim",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603891098/84A7F8CE1B7AEA3F5B65079E0EB56B1FB18E920C/",
-      "points": 5
-    }]
+        "name": "Glitterstim",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603891098/84A7F8CE1B7AEA3F5B65079E0EB56B1FB18E920C/",
+        "points": 5
+      },
+      {
+        "name": "Black Market Weapon Modifications",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738416607468746/9BB47BF9A1EADE6F9FE3F2E6E5C6EE4F87ADFBF5/",
+        "points": 10
+      },
+      {
+        "name": "Stimpack",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738416607472028/5DE83A1021AD1291075346180075ACC4CC2ADBA5/",
+        "points": 5
+      },
+      {
+        "name": "Blend In",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738416607475838/0126DF37B8A08829EF7C03C87FBA76D98D567F2F/",
+        "points": 10
+      },
+      {
+        "name": "Outer Rim Modifications",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738416607479220/9FD7DEA0460FAA03A3C6BBB410D029405FE6F57F/",
+        "points": 10
+      },
+      {
+        "name": "Self-Destruct Sequencing",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738416607481441/3D72AB420E13BC2083A6266950F8A581807B6D15/",
+        "points": 5
+      }
+    ]
   }
 }
