@@ -71,6 +71,34 @@
           ]
         }
       ],
+      "Corps": [{
+        "name": "Grenadier Squad",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738493660459899/7E69E1BB255FAD644EA1E1CBF2346F942946E29E/",
+        "size": "small",
+        "type": "Trooper",
+        "points": 33,
+        "speed": 2,
+        "upgrades": {
+          "Personnel": 1,
+          "Illicit": 1,
+          "Comms": 1,
+          "Gear": 1,
+          "Grenades": 2
+        },
+        "minis": [{
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365822891/9245AC0020E31C369AE4129B35D0BA467A01F2B4/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365823446/E94BC334A0B2F95CFB75FEDC3A0FEDF2FFD5A970/"
+          },
+          {
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365824294/5F43B720E0198A078E25BA472E7DDBCA8F51CBEC/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365824481/27693FC709ADF50440623C6347A11151608D5E2F/"
+          },
+          {
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365824294/5F43B720E0198A078E25BA472E7DDBCA8F51CBEC/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365824481/27693FC709ADF50440623C6347A11151608D5E2F/"
+          }
+        ]
+      }],
       "Special Forces": [{
         "name": "Mercenary Assault Squad",
         "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603860984/F98ED756F3CACAF134A45807F21E4C113F8115DF/",
@@ -220,6 +248,35 @@
         "restrictions": {
           "include": {
             "type": ["Droid Trooper", "Ground Vehicle", "Repulsor Vehicle"]
+          }
+        }
+      }
+    ],
+    "Personnel": [{
+        "name": "Extra Grenadier",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738493660462083/60B39BE0C208AD4AD71E5E0B500185C1131126BA/",
+        "mini": {
+          "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365824294/5F43B720E0198A078E25BA472E7DDBCA8F51CBEC/",
+          "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365824481/27693FC709ADF50440623C6347A11151608D5E2F/"
+        },
+        "points": 11,
+        "restrictions": {
+          "include": {
+            "unit": ["Grenadier Squad"]
+          }
+        }
+      },
+      {
+        "name": "Forward Observer",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738493660460978/DA17009C9F9CA08231B2CBE8D40FC66B9CB461A0/",
+        "mini": {
+          "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696984835690936/3C42012D036A5F420DD9ADD158E66901AB4A5671/",
+          "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696984835691208/1C0C86466F3298E9663CEE3961B7F3F6DBED4DD9/"
+        },
+        "points": 17,
+        "restrictions": {
+          "include": {
+            "unit": ["Grenadier Squad"]
           }
         }
       }
