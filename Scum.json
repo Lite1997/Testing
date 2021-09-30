@@ -71,6 +71,40 @@
           ]
         }
       ],
+      "Operative": [{
+        "name": "Silri",
+        "title": "Dark Witch",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738493660714468/F66C2F41959E550DE93155E2E2BAD88FAF83D465/",
+        "size": "small",
+        "type": "Trooper",
+        "points": 150,
+        "speed": 2,
+        "upgrades": {
+          "Force": 1,
+          "Training": 2,
+          "Illicit": 1
+        },
+        "minis": [{
+          "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696984835654759/B33E7C3B1D34E7DDAC7B617DC466F12FF66774E1/",
+          "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696984835654931/3ACEDEC6F99A311A245C7492883DAB9720D05348/"
+        }],
+        "commands": [{
+            "name": "I Shall Rip Out Their Souls",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738493660715539/9336094B8C6DCC428CD97FC96BD2B88C11B9294F/",
+            "pip": 1
+          },
+          {
+            "name": "Come Closer",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738493660715093/D8CA7F671BBCEA646850965CFFD5D7A1E4E2BFE0/",
+            "pip": 2
+          },
+          {
+            "name": "They Will Know Fear",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738493660716479/444C70F5B2A410264C3516621322283D50FF5E6F/",
+            "pip": 3
+          }
+        ]
+      }],
       "Corps": [{
         "name": "Grenadier Squad",
         "image": "http://cloud-3.steamusercontent.com/ugc/1638738493660459899/7E69E1BB255FAD644EA1E1CBF2346F942946E29E/",
@@ -130,6 +164,21 @@
             "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365878394/8AD2A611C51D78184D8E4204A720C59EEC2C7755/"
           }
         ]
+      }],
+      "Heavy": [{
+        "name": "Cuddles",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738493660718148/F2EBC8B208958A7DE241A7E6A2989B2EDEFA8A7F/",
+        "size": "huge",
+        "type": "Creature Trooper",
+        "points": 135,
+        "speed": 1,
+        "upgrades": {
+          "Creature": 1
+        },
+        "minis": [{
+          "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696984835661685/1668BEEE179A260B9988D3C60872160FF93CEE51/",
+          "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696984835661821/7B52CEEC4169ACB4A32C0489D4A878BC72030DE2/"
+        }]
       }]
     }
   },
@@ -282,15 +331,26 @@
       }
     ],
     "Training": [{
-      "name": "Blend In",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1638738416607475838/0126DF37B8A08829EF7C03C87FBA76D98D567F2F/",
-      "points": 10,
-      "restrictions": {
-        "include": {
-          "faction": ["Scum"],
-          "rank": ["Commander", "Operative", "Special Forces"]
+        "name": "Blend In",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738416607475838/0126DF37B8A08829EF7C03C87FBA76D98D567F2F/",
+        "points": 10,
+        "restrictions": {
+          "include": {
+            "faction": ["Scum"],
+            "rank": ["Commander", "Operative", "Special Forces"]
+          }
+        }
+      },
+      {
+        "name": "Faithful Companion",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738493660717644/A594E62381ACB7D11DC01ABD418D4521A4DE8A29/",
+        "points": 8,
+        "restrictions": {
+          "include": {
+            "unit": ["Beast Master", "Silri"]
+          }
         }
       }
-    }]
+    ]
   }
 }
