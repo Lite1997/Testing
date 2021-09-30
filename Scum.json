@@ -204,16 +204,6 @@
         }
       },
       {
-        "name": "Blend In",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738416607475838/0126DF37B8A08829EF7C03C87FBA76D98D567F2F/",
-        "points": 10,
-        "restrictions": {
-          "include": {
-            "rank": ["Commander", "Operative", "Special Forces"]
-          }
-        }
-      },
-      {
         "name": "Outer Rim Modifications",
         "image": "http://cloud-3.steamusercontent.com/ugc/1638738416607479220/9FD7DEA0460FAA03A3C6BBB410D029405FE6F57F/",
         "points": 10,
@@ -233,6 +223,16 @@
           }
         }
       }
-    ]
+    ],
+    "Training": [{
+      "name": "Blend In",
+      "image": "http://cloud-3.steamusercontent.com/ugc/1638738416607475838/0126DF37B8A08829EF7C03C87FBA76D98D567F2F/",
+      "points": 10,
+      "restrictions": {
+        "include": {
+          "rank": ["Commander", "Operative", "Special Forces"]
+        }
+      }
+    }]
   }
 }
