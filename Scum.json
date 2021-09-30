@@ -176,32 +176,62 @@
     "Illicit": [{
         "name": "Glitterstim",
         "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603891098/84A7F8CE1B7AEA3F5B65079E0EB56B1FB18E920C/",
-        "points": 5
+        "points": 5,
+        "restrictions": {
+          "include": {
+            "type": ["Trooper"]
+          }
+        }
       },
       {
         "name": "Black Market Weapon Modifications",
         "image": "http://cloud-3.steamusercontent.com/ugc/1638738416607468746/9BB47BF9A1EADE6F9FE3F2E6E5C6EE4F87ADFBF5/",
-        "points": 10
+        "points": 10,
+        "restrictions": {
+          "include": {
+            "type": ["Trooper"]
+          }
+        }
       },
       {
         "name": "Stimpack",
         "image": "http://cloud-3.steamusercontent.com/ugc/1638738416607472028/5DE83A1021AD1291075346180075ACC4CC2ADBA5/",
-        "points": 5
+        "points": 5,
+        "restrictions": {
+          "include": {
+            "type": ["Trooper"]
+          }
+        }
       },
       {
         "name": "Blend In",
         "image": "http://cloud-3.steamusercontent.com/ugc/1638738416607475838/0126DF37B8A08829EF7C03C87FBA76D98D567F2F/",
-        "points": 10
+        "points": 10,
+        "restrictions": {
+          "include": {
+            "Scum": ["Commander", "Operative", "Special Forces"]
+          }
+        }
       },
       {
         "name": "Outer Rim Modifications",
         "image": "http://cloud-3.steamusercontent.com/ugc/1638738416607479220/9FD7DEA0460FAA03A3C6BBB410D029405FE6F57F/",
-        "points": 10
+        "points": 10,
+        "restrictions": {
+          "include": {
+            "type": ["Droid Trooper", "Ground Vehicle", "Repulsor Vehicle"]
+          }
+        }
       },
       {
         "name": "Self-Destruct Sequencing",
         "image": "http://cloud-3.steamusercontent.com/ugc/1638738416607481441/3D72AB420E13BC2083A6266950F8A581807B6D15/",
-        "points": 5
+        "points": 5,
+        "restrictions": {
+          "include": {
+            "type": ["Droid Trooper", "Ground Vehicle", "Repulsor Vehicle"]
+          }
+        }
       }
     ]
   }
