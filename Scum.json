@@ -108,7 +108,7 @@
   "upgrades": {
     "Armament": [{
       "name": "DXR-6 Focused Fire Config",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1021698013227669732/C929D5A72E913A380BD66260EE3271B76F2F5BC1/",
+      "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603863345/14E12794CF6C651B2CF13FAD5FBEF4233C4950AF/",
       "flip": {
         "name": "DXR-6 Power Shot Config",
         "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603875265/EF644A8E1C5754D1A2D9BB5917F1BBE2AD7E9622/"
@@ -209,7 +209,8 @@
         "points": 10,
         "restrictions": {
           "include": {
-            "Faction": ["Scum"]
+            "faction": ["Scum"],
+            "rank": ["Commander", "Operative", "Special Forces"]
           }
         }
       },
