@@ -230,6 +230,7 @@
       "points": 10,
       "restrictions": {
         "include": {
+          "faction": ["Scum"],
           "rank": ["Commander", "Operative", "Special Forces"]
         }
       }
