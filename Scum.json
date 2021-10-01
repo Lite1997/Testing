@@ -4,7 +4,7 @@
       "Commander": [{
           "name": "Tyber Zann",
           "title": "Cold, Methodical, and Ruthless",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603829039/A3ADED2A007CB1D75158D7B0FDC5F868FE750644/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735070640/74612E44D0AF4F505937EE2E0DAF21C08EB4E15B/",
           "size": "small",
           "type": "Trooper",
           "points": 140,
@@ -21,17 +21,17 @@
           }],
           "commands": [{
               "name": "Orbital Bombardment",
-              "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603829550/6430E393F0DB74C8938A6FE00E68694059261B8B/",
+              "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735071380/B7CEA3F14638418D63BEFF3F7A611F5078D31667/",
               "pip": 1
             },
             {
               "name": "Corruption is My Weapon",
-              "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603829893/707C601FD89303F407F6AE8CC3F989F98067522E/",
+              "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735071871/7524B10AD4DB25DAA1E5F5F0275A58DE9C3EC666/",
               "pip": 2
             },
             {
               "name": "Everyone Has a Price",
-              "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603830223/3CF5993C5C1601D4BD1B8E67A04278FD10A8F94B/",
+              "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735072378/3A407CC85B615E03763D5F22E7116CA3FB217F0B/",
               "pip": 3
             }
           ]
@@ -39,7 +39,7 @@
         {
           "name": "Urai Fen",
           "title": "Loyal Lieutenant",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603739804/D72F622C8E261048B1CC536B541DC40A0D00E9C0/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735039360/1B0C02842ADDAA687687E529BE8B33983CAD933F/",
           "size": "small",
           "type": "Trooper",
           "points": 90,
@@ -55,17 +55,17 @@
           }],
           "commands": [{
               "name": "Strike and Fade",
-              "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603746185/5104E33641965A6AC045E718C49E4EE8AB49C78B/",
+              "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735040340/32D15FA78098AB05AD6D98B51631935EC6DEC3C3/",
               "pip": 1
             },
             {
               "name": "The Consortium Commands It",
-              "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603741053/4E94295DE369FC225ADEE820CC778AC43877B9A3/",
+              "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735041426/F309B5F10C9F44B3E9FE50A42FAD541185DEE9A5/",
               "pip": 2
             },
             {
               "name": "No Mission is too Dangerous",
-              "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603740586/0EFE710BD47E248062CA8A8B1071967CD9E3BB96/",
+              "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735047596/1516182BE8ED3D0635F56F830C4FB85F869C477C/",
               "pip": 3
             }
           ]
@@ -74,7 +74,7 @@
       "Operative": [{
         "name": "Silri",
         "title": "Dark Witch",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738493660714468/F66C2F41959E550DE93155E2E2BAD88FAF83D465/",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735151492/82278C71E894B0710E02376909241ECAAD41F8C7/",
         "size": "small",
         "type": "Trooper",
         "points": 150,
@@ -90,24 +90,24 @@
         }],
         "commands": [{
             "name": "I Shall Rip Out Their Souls",
-            "image": "http://cloud-3.steamusercontent.com/ugc/1638738493660715539/9336094B8C6DCC428CD97FC96BD2B88C11B9294F/",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735165967/E52C14F2A96A0DDA785B12C9400F47E9E5E2F4A7/",
             "pip": 1
           },
           {
             "name": "Come Closer",
-            "image": "http://cloud-3.steamusercontent.com/ugc/1638738493660715093/D8CA7F671BBCEA646850965CFFD5D7A1E4E2BFE0/",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735165400/6E97DF5AC3BF3172E316DD409240AA04BD4C6DE4/",
             "pip": 2
           },
           {
             "name": "They Will Know Fear",
-            "image": "http://cloud-3.steamusercontent.com/ugc/1638738493660716479/444C70F5B2A410264C3516621322283D50FF5E6F/",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735164916/B6CDD990B416AE4B7897AB3A27E35ACD4A46DE07/",
             "pip": 3
           }
         ]
       }],
       "Corps": [{
         "name": "Grenadier Squad",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738493660459899/7E69E1BB255FAD644EA1E1CBF2346F942946E29E/",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735128053/8071373F43B26B004A85BB1423AE10D8BA9FA2D9/",
         "size": "small",
         "type": "Trooper",
         "points": 33,
@@ -135,7 +135,7 @@
       }],
       "Special Forces": [{
         "name": "Mercenary Assault Squad",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603860984/F98ED756F3CACAF134A45807F21E4C113F8115DF/",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735112958/CA567516B908134719A9891C1855E81C88E39E7E/",
         "size": "small",
         "type": "Trooper",
         "points": 72,
@@ -185,10 +185,10 @@
   "upgrades": {
     "Armament": [{
       "name": "DXR-6 Focused Fire Config",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603863345/14E12794CF6C651B2CF13FAD5FBEF4233C4950AF/",
+      "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735115917/9E0BA5F8013B1491D5EF74BED3C484BA0F3052AB/",
       "flip": {
         "name": "DXR-6 Power Shot Config",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603875265/EF644A8E1C5754D1A2D9BB5917F1BBE2AD7E9622/"
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735116297/419AF3D6925D7004CA92BE249969A1BFB42B9742/"
       },
       "points": 8,
       "restrictions": {
@@ -199,7 +199,7 @@
     }],
     "Command": [{
       "name": "Racketeering",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603830651/F966FBACC01B49CD4821BC2B57FB3C81C0EA0768/",
+      "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735072829/84C080C8B919D06884AF3BC12ADDB58B524C5271/",
       "points": 5,
       "restrictions": {
         "include": {
@@ -209,7 +209,7 @@
     }],
     "Heavy Weapon": [{
         "name": "ACP Trooper",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603863757/6A7F8DAB5820EC37B5DF5307A719671793BA1EE6/",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735115264/1D92758AC20C28AA48019DCD564E31D271B20A2C/",
         "mini": {
           "mesh": "http://cloud-3.steamusercontent.com/ugc/1021698068156270983/519A43ACE1F5461D51AA1BA81ADF4A5C37BEF9E4/",
           "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021698068156271135/318D90BCDE4E3E362797A38823A21FF17FAF651E/"
@@ -223,7 +223,7 @@
       },
       {
         "name": "Concussion Rifle Trooper",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603864161/3C6033DF633BA02EF23B0C8F8931293D830EA70E/",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735114688/7F06A4AA27BBEFE8D08FF392CB8E7E8FC4083F6B/",
         "mini": {
           "mesh": "http://cloud-3.steamusercontent.com/ugc/1021698068156271785/233649FA9B56D451B97E71E706C777AD529B0810/",
           "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021698068156271944/671F0E7483F7DA3D92D551E5042698EE06E510EB/"
@@ -237,7 +237,7 @@
       },
       {
         "name": "Mercenary Assault Trooper",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603864652/0A0D815A3219936434CE0812C7DCD486060B350A/",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735114176/44B42375B5C11B5BADA3029FC1BF45BBCE56575C/",
         "mini": {
           "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365878231/A04BECDA5804E0A38FF974528C70AB5AAAE4B715/",
           "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365878394/8AD2A611C51D78184D8E4204A720C59EEC2C7755/"
@@ -272,8 +272,18 @@
       },
       {
         "name": "Stimpack",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738416607472028/5DE83A1021AD1291075346180075ACC4CC2ADBA5/",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735182732/C3B2C7FA3F05FC71D5C3ED089A8037A92171A103/",
         "points": 5,
+        "restrictions": {
+          "include": {
+            "type": ["Trooper"]
+          }
+        }
+      },
+      {
+        "name": "Personal Shield",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735181899/208D960208099BDF4461E2E09204169FF959FC52/",
+        "points": 8,
         "restrictions": {
           "include": {
             "type": ["Trooper"]
@@ -303,7 +313,7 @@
     ],
     "Personnel": [{
         "name": "Extra Grenadier",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738493660462083/60B39BE0C208AD4AD71E5E0B500185C1131126BA/",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735129141/9805A2223DB725582E8105414121E4505895193F/",
         "mini": {
           "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365824294/5F43B720E0198A078E25BA472E7DDBCA8F51CBEC/",
           "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365824481/27693FC709ADF50440623C6347A11151608D5E2F/"
@@ -317,7 +327,7 @@
       },
       {
         "name": "Forward Observer",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738493660460978/DA17009C9F9CA08231B2CBE8D40FC66B9CB461A0/",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735128538/8947A618AAA4A4A0D92B3C7C12E651A494FDEDA7/",
         "mini": {
           "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696984835690936/3C42012D036A5F420DD9ADD158E66901AB4A5671/",
           "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696984835691208/1C0C86466F3298E9663CEE3961B7F3F6DBED4DD9/"
@@ -332,7 +342,7 @@
     ],
     "Training": [{
         "name": "Blend In",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738416607475838/0126DF37B8A08829EF7C03C87FBA76D98D567F2F/",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735182379/DD072454059CA2BB5CB206848D0BCBF656F494F9/",
         "points": 10,
         "restrictions": {
           "include": {
@@ -343,7 +353,7 @@
       },
       {
         "name": "Faithful Companion",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738493660717644/A594E62381ACB7D11DC01ABD418D4521A4DE8A29/",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735164302/4C5E96A3397E6BD2F8C07A61AA9B25FDC0D8C031/",
         "points": 8,
         "restrictions": {
           "include": {
