@@ -39,7 +39,7 @@
         {
           "name": "Defiler",
           "title": "Under Cover Agent",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735070640/74612E44D0AF4F505937EE2E0DAF21C08EB4E15B/",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735208736/794BBDD282201AA4D82C0B728D90073E6CAF423C/",
           "size": "small",
           "type": "Trooper",
           "points": 90,
@@ -202,6 +202,7 @@
       }],
       "Heavy": [{
         "name": "Cuddles",
+        "title": "Ferocious One",
         "image": "http://cloud-3.steamusercontent.com/ugc/1638738493660718148/F2EBC8B208958A7DE241A7E6A2989B2EDEFA8A7F/",
         "size": "huge",
         "type": "Creature Trooper",
