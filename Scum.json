@@ -200,6 +200,22 @@
           }
         ]
       }],
+      "Support": [{
+        "name": "Droideka MKII",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1683770969788604581/361864DD585CE7DE99234C08416E9C4C1AA84A50/",
+        "size": "medium",
+        "type": "Ground Vehicle",
+        "points": 110,
+        "speed": 1,
+        "upgrades": {
+          "Comms": 1,
+          "Hardpoint": 1
+        },
+        "minis": [{
+          "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365798378/BE8A6530AC8273FFE4549147A2F83C7A77BA5597/",
+          "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365798566/72991BC6227C745C3157A2328EEFDF4F1671924D/"
+        }]
+      }],
       "Heavy": [{
         "name": "Cuddles",
         "title": "Ferocious One",
@@ -264,6 +280,27 @@
         }
       }
     }],
+    "Hardpoint": [{
+        "name": "Ion Cannon",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638673967/DCE9270CEAD120F4DD068CDF23C326E2371DC75C/",
+        "points": 15,
+        "restrictions": {
+          "include": {
+            "unit": ["Droideka MKII"]
+          }
+        }
+      },
+      {
+        "name": "Tri Laser Cannons",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638674750/6057A2DACA2F104F889921E46FF3AC717DE4B962/",
+        "points": 25,
+        "restrictions": {
+          "include": {
+            "unit": ["Droideka MKII"]
+          }
+        }
+      }
+    ],
     "Heavy Weapon": [{
         "name": "ACP Trooper",
         "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735115264/1D92758AC20C28AA48019DCD564E31D271B20A2C/",
