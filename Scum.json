@@ -309,7 +309,7 @@
     ],
     "Illicit": [{
         "name": "Glitterstim",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738416603891098/84A7F8CE1B7AEA3F5B65079E0EB56B1FB18E920C/",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735317047/31F1D322D5E1C986DFB20E582590653A0B0CAF7F/",
         "points": 5,
         "restrictions": {
           "include": {
@@ -319,7 +319,7 @@
       },
       {
         "name": "Black Market Weapon Modifications",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738416607468746/9BB47BF9A1EADE6F9FE3F2E6E5C6EE4F87ADFBF5/",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735317485/24DDC0FD309F0F75C04559832E888C0ED6E52CB1/",
         "points": 10,
         "restrictions": {
           "include": {
@@ -349,7 +349,7 @@
       },
       {
         "name": "Outer Rim Modifications",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738416607479220/9FD7DEA0460FAA03A3C6BBB410D029405FE6F57F/",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735317893/3A2F6E60B2980B2608C4DA9B029E1C4B2F257560/",
         "points": 10,
         "restrictions": {
           "include": {
@@ -359,7 +359,7 @@
       },
       {
         "name": "Self-Destruct Sequencing",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738416607481441/3D72AB420E13BC2083A6266950F8A581807B6D15/",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735318468/FF453A532280D1626623E10338ED5D288FA47B6E/",
         "points": 5,
         "restrictions": {
           "include": {
