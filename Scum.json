@@ -239,21 +239,40 @@
         }]
       }],
       "Heavy": [{
-        "name": "Cuddles",
-        "title": "Ferocious One",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735162413/20647BC13446FAA4A0951E6E9D5003D9904557E9/",
-        "size": "huge",
-        "type": "Creature Trooper",
-        "points": 135,
-        "speed": 1,
-        "upgrades": {
-          "Creature": 1
+          "name": "Cuddles",
+          "title": "Ferocious One",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735162413/20647BC13446FAA4A0951E6E9D5003D9904557E9/",
+          "size": "huge",
+          "type": "Creature Trooper",
+          "points": 135,
+          "speed": 1,
+          "upgrades": {
+            "Creature": 1
+          },
+          "minis": [{
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696984835661685/1668BEEE179A260B9988D3C60872160FF93CEE51/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696984835661821/7B52CEEC4169ACB4A32C0489D4A878BC72030DE2/"
+          }]
         },
-        "minis": [{
-          "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696984835661685/1668BEEE179A260B9988D3C60872160FF93CEE51/",
-          "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696984835661821/7B52CEEC4169ACB4A32C0489D4A878BC72030DE2/"
-        }]
-      }]
+        {
+          "name": "Missile Attack Launcher",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556639035496/5F41C143C5ADE4631FFDC497CD8053BF7F0F9E43/",
+          "size": "epic",
+          "type": "Repulsor Vehicle",
+          "points": 140,
+          "speed": 1,
+          "upgrades": {
+            "Pilot": 1,
+            "Ordnance": 2,
+            "Comms": 1,
+            "Hardpoint": 1
+          },
+          "minis": [{
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021698013227951332/BDA59EEE85EBD5AE628E38AC9B0C539D59DC9525/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021698013227951474/8641BEED6BF44F70975F6F27093477327361567C/"
+          }]
+        }
+      ]
     }
   },
   "upgrades": {
@@ -302,6 +321,17 @@
         }
       }
     }],
+    "Gear": [{
+      "name": "Target Designator",
+      "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638971560/0F6F9FB93CD712E0D2B5916DE3392EF98BDAB3DC/",
+      "points": 6,
+      "restrictions": {
+        "include": {
+          "faction": ["Scum"]
+        }
+      }
+    }],
+
     "Hardpoint": [{
         "name": "Ion Cannon",
         "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638673967/DCE9270CEAD120F4DD068CDF23C326E2371DC75C/",
@@ -319,6 +349,36 @@
         "restrictions": {
           "include": {
             "unit": ["Droideka MKII"]
+          }
+        }
+      },
+      {
+        "name": "Auto Loader",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638973875/12A8A6DAC58F8AD954452CFC4B0DC38ED932407B/",
+        "points": 5,
+        "restrictions": {
+          "include": {
+            "unit": ["Missile Attack Launcher"]
+          }
+        }
+      },
+      {
+        "name": "Expanded Launch Tubes",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638975154/0F3C24800735B4BB8E0B156258FF032116C503F0/",
+        "points": 4,
+        "restrictions": {
+          "include": {
+            "unit": ["Missile Attack Launcher"]
+          }
+        }
+      },
+      {
+        "name": "Fire Direction Center",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638972654/A3E6D0BCB701B2DEFB788DA9CEB3F163F4025EEF/",
+        "points": 8,
+        "restrictions": {
+          "include": {
+            "unit": ["Missile Attack Launcher"]
           }
         }
       }
@@ -455,6 +515,16 @@
         }
       }
     ],
+    "Ordnance": [{
+      "name": "Carbonite Missiles",
+      "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638969743/EEA573B6F2E054B13E3A220888FFDC03906CA74C/",
+      "points": 10,
+      "restrictions": {
+        "include": {
+          "unit": ["Missile Attack Launcher"]
+        }
+      }
+    }],
     "Personnel": [{
         "name": "Extra Grenadier",
         "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735129141/9805A2223DB725582E8105414121E4505895193F/",
@@ -484,6 +554,16 @@
         }
       }
     ],
+    "Pilot": [{
+      "name": "Veteran Mechanic",
+      "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638970650/AE724920A75FF2F1D840AC3DE707166D67EA0323/",
+      "points": 8,
+      "restrictions": {
+        "include": {
+          "unit": ["Missile Attack Launcher"]
+        }
+      }
+    }],
     "Training": [{
         "name": "Blend In",
         "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735182379/DD072454059CA2BB5CB206848D0BCBF656F494F9/",
