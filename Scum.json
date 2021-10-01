@@ -255,6 +255,22 @@
           }]
         },
         {
+          "name": "Canderous Class Assault Tank",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556639093429/13703654E328B43E1C3E08ACA76E5D0BB2FC0D9A/",
+          "size": "epic",
+          "type": "Repulsor Vehicle",
+          "points": 180,
+          "speed": 1,
+          "upgrades": {
+            "Pilot": 1,
+            "Comms": 1
+          },
+          "minis": [{
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697231133144508/4BB9CD650D4795CEB6C81CBB95AB31DA7365F7EF/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697231133144655/86527E20BE4B11B688A7F14894775EBE347C475B/"
+          }]
+        },
+        {
           "name": "Missile Attack Launcher",
           "image": "http://cloud-3.steamusercontent.com/ugc/1638738556639035496/5F41C143C5ADE4631FFDC497CD8053BF7F0F9E43/",
           "size": "epic",
@@ -555,15 +571,46 @@
       }
     ],
     "Pilot": [{
-      "name": "Veteran Mechanic",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638970650/AE724920A75FF2F1D840AC3DE707166D67EA0323/",
-      "points": 8,
-      "restrictions": {
-        "include": {
-          "unit": ["Missile Attack Launcher"]
+        "name": "Veteran Mechanic",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638970650/AE724920A75FF2F1D840AC3DE707166D67EA0323/",
+        "points": 8,
+        "restrictions": {
+          "include": {
+            "unit": ["Missile Attack Launcher"]
+          }
+        }
+      },
+      {
+        "name": "Veteran Tank Pilot",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556639094597/6678DD776757AAFAFA216FB7538DA7BC35147757/",
+        "points": 5,
+        "restrictions": {
+          "include": {
+            "unit": ["Canderous Class Assault Tank"]
+          }
+        }
+      },
+      {
+        "name": "Pirate Speed Freak",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556639095451/373D5F83FB4E8F4D3223A3CAD3E6A8E661FAAC2F/",
+        "points": 8,
+        "restrictions": {
+          "include": {
+            "unit": ["Canderous Class Assault Tank"]
+          }
+        }
+      },
+      {
+        "name": "Pirate Hotshot",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556639096066/A06D6ABDA4E9B1B1F2A63187D6B24F13D5D283A5/",
+        "points": 15,
+        "restrictions": {
+          "include": {
+            "unit": ["Canderous Class Assault Tank"]
+          }
         }
       }
-    }],
+    ],
     "Training": [{
         "name": "Blend In",
         "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735182379/DD072454059CA2BB5CB206848D0BCBF656F494F9/",
