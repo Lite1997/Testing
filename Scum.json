@@ -169,37 +169,59 @@
         ]
       }],
       "Special Forces": [{
-        "name": "Mercenary Assault Squad",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735112958/CA567516B908134719A9891C1855E81C88E39E7E/",
-        "size": "small",
-        "type": "Trooper",
-        "points": 72,
-        "speed": 1,
-        "upgrades": {
-          "Heavy Weapon": 1,
-          "Training": 1,
-          "Illicit": 1,
-          "Gear": 1,
-          "Armament": 1
+          "name": "Mercenary Assault Squad",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735112958/CA567516B908134719A9891C1855E81C88E39E7E/",
+          "size": "small",
+          "type": "Trooper",
+          "points": 72,
+          "speed": 1,
+          "upgrades": {
+            "Heavy Weapon": 1,
+            "Training": 1,
+            "Illicit": 1,
+            "Gear": 1,
+            "Armament": 1
+          },
+          "minis": [{
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365876771/3C9BD90A0E8E6BA277A1133D1AF61B2D44C2DEB0/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365877132/5DEAE7FFFF586E0ACBFD5BB29AF4869E6D675044/"
+            },
+            {
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365880281/45B6B327A692DBFDE6D5E5F642EB7FEBBC2A0A4F/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365878394/8AD2A611C51D78184D8E4204A720C59EEC2C7755/"
+            },
+            {
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365879761/026D7FD22C9074A12068AE05CE293EBB833FC70E/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365878394/8AD2A611C51D78184D8E4204A720C59EEC2C7755/"
+            },
+            {
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365879295/EC66EBB1550D6D61DAC1AC96CAE92A0273B06A45/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365878394/8AD2A611C51D78184D8E4204A720C59EEC2C7755/"
+            }
+          ]
         },
-        "minis": [{
-            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365876771/3C9BD90A0E8E6BA277A1133D1AF61B2D44C2DEB0/",
-            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365877132/5DEAE7FFFF586E0ACBFD5BB29AF4869E6D675044/"
+        {
+          "name": "Infiltrators",
+          "title": "Strike Team",
+          "heavyWeaponTeam": true,
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638837280/E9F99045D6B7FA98055D860B700FB5402373070B/",
+          "size": "small",
+          "type": "Trooper",
+          "points": 22,
+          "speed": 2,
+          "upgrades": {
+            "Heavy Weapon": 1,
+            "Training": 1,
+            "Illicit": 1,
+            "Comms": 1,
+            "Gear": 1
           },
-          {
-            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365880281/45B6B327A692DBFDE6D5E5F642EB7FEBBC2A0A4F/",
-            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365878394/8AD2A611C51D78184D8E4204A720C59EEC2C7755/"
-          },
-          {
-            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365879761/026D7FD22C9074A12068AE05CE293EBB833FC70E/",
-            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365878394/8AD2A611C51D78184D8E4204A720C59EEC2C7755/"
-          },
-          {
-            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365879295/EC66EBB1550D6D61DAC1AC96CAE92A0273B06A45/",
-            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365878394/8AD2A611C51D78184D8E4204A720C59EEC2C7755/"
-          }
-        ]
-      }],
+          "minis": [{
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021698068156464007/651A73813208989A1D36777648388ABBF2F11376/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021698068156464181/1FABB24F11BA883FEB5A7CB16CB7EAE86CB50402/"
+          }]
+        }
+      ],
       "Support": [{
         "name": "Droideka MKII",
         "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638672297/9A21A780F96BA78A849FD5FFF320FF4D0581259A/",
@@ -312,6 +334,34 @@
         "restrictions": {
           "include": {
             "unit": ["Mercenary Assault Squad"]
+          }
+        }
+      },
+      {
+        "name": "Cycler Rifle Sniper",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638840781/F5E96AC72E6D27DDA4AAC1467261D01B33AAD476/",
+        "mini": {
+          "mesh": "http://cloud-3.steamusercontent.com/ugc/1021698068156464799/C000C8B3CF81A11687F6B39574ACE73A8FEF1A28/",
+          "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021698068156464974/774C639F2300D7816E654D8276585556DEAD6432/"
+        },
+        "points": 30,
+        "restrictions": {
+          "include": {
+            "unit": ["Infiltrators"]
+          }
+        }
+      },
+      {
+        "name": "Detonite Charge Saboteur",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638839094/D0D81BD4107CD9647D5C041676865BAA1CFF027D/",
+        "mini": {
+          "mesh": "http://cloud-3.steamusercontent.com/ugc/1021698068156470652/C2D7BF3AADDECA01B8C5442DF6419D2F1FF2389B/",
+          "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021698068156470835/5E87EEBFF97975FF1A8985808C26B645EC53CAAC/"
+        },
+        "points": 28,
+        "restrictions": {
+          "include": {
+            "unit": ["Infiltrators"]
           }
         }
       },
