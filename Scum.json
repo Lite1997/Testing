@@ -1,844 +1,881 @@
 {
-  "units": {
-    "Scum": {
-      "Commander": [{
-          "name": "Defiler",
-          "title": "Under Cover Agent",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735208736/794BBDD282201AA4D82C0B728D90073E6CAF423C/",
-          "size": "small",
-          "type": "Trooper",
-          "points": 90,
-          "speed": 2,
-          "upgrades": {
-            "Training": 1,
-            "Gear": 1,
-            "Armament": 1,
-            "Illicit": 1
-          },
-          "minis": [{
-            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696515362210843/CDD5E72C8CE5B42739060E6ADC81DC64751294F0/",
-            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696515362211007/246011C13B53F2A881968B8996802F50B33D075F/"
-          }],
-          "commands": [{
-              "name": " I Like Explosions",
-              "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735209433/1B7DC25C849E9B7D2657E40E71FF198B8588381F/",
-              "pip": 1
+    "units": {
+      "Scum": {
+        "Commander": [{
+            "name": "Defiler",
+            "title": "Under Cover Agent",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735208736/794BBDD282201AA4D82C0B728D90073E6CAF423C/",
+            "size": "small",
+            "type": "Trooper",
+            "points": 90,
+            "speed": 2,
+            "upgrades": {
+              "Training": 1,
+              "Gear": 1,
+              "Armament": 1,
+              "Illicit": 1
             },
-            {
-              "name": "Nothing Stops Me",
-              "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735210006/8EAEC185C0C43B5D6099ED763E9B3D4FC5C493A5/",
-              "pip": 2
-            },
-            {
-              "name": "I Stand In the Shadow",
-              "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735210753/1BF727CB55BFAB8151A9F9A368C91C6B76248636/",
-              "pip": 3
-            }
-          ]
-        },
-        {
-          "name": "Tyber Zann",
-          "title": "Cold, Methodical, and Ruthless",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735070640/74612E44D0AF4F505937EE2E0DAF21C08EB4E15B/",
-          "size": "small",
-          "type": "Trooper",
-          "points": 140,
-          "speed": 2,
-          "upgrades": {
-            "Command": 1,
-            "Training": 1,
-            "Illicit": 1,
-            "Gear": 1
-          },
-          "minis": [{
-            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365775807/337D2A5009DD4A91F0A469B418D4C77867FDF52D/",
-            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365776115/8606DE28865E723D2343D17F890A99959E25AC8F/"
-          }],
-          "commands": [{
-              "name": "Orbital Bombardment",
-              "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735071380/B7CEA3F14638418D63BEFF3F7A611F5078D31667/",
-              "pip": 1
-            },
-            {
-              "name": "Corruption is My Weapon",
-              "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735071871/7524B10AD4DB25DAA1E5F5F0275A58DE9C3EC666/",
-              "pip": 2
-            },
-            {
-              "name": "Everyone Has a Price",
-              "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735072378/3A407CC85B615E03763D5F22E7116CA3FB217F0B/",
-              "pip": 3
-            }
-          ]
-        },
-        {
-          "name": "Urai Fen",
-          "title": "Loyal Lieutenant",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735039360/1B0C02842ADDAA687687E529BE8B33983CAD933F/",
-          "size": "small",
-          "type": "Trooper",
-          "points": 90,
-          "speed": 2,
-          "upgrades": {
-            "Training": 2,
-            "Illicit": 1,
-            "Gear": 1
-          },
-          "minis": [{
-            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696984835649865/8FC3F2E4E22555D72BDF283AD0E686537F33A043/",
-            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696984835650100/057E08B03AAE7CA89B585D8916BB25023B63341A/"
-          }],
-          "commands": [{
-              "name": "Strike and Fade",
-              "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735040340/32D15FA78098AB05AD6D98B51631935EC6DEC3C3/",
-              "pip": 1
-            },
-            {
-              "name": "The Consortium Commands It",
-              "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735041426/F309B5F10C9F44B3E9FE50A42FAD541185DEE9A5/",
-              "pip": 2
-            },
-            {
-              "name": "No Mission is too Dangerous",
-              "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735047596/1516182BE8ED3D0635F56F830C4FB85F869C477C/",
-              "pip": 3
-            }
-          ]
-        }
-      ],
-      "Operative": [{
-          "name": "Bo-Katan Kryze",
-          "title": "Death Watch Lieutenant",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640560685/8771A2D7895F003917A4CD9D170E7D5FBAA81D65/",
-          "size": "small",
-          "type": "Mandalorian Trooper",
-          "points": 120,
-          "speed": 3,
-          "upgrades": {
-            "Training": 2,
-            "Gear": 1,
-            "Armament": 2
-          },
-          "minis": [{
-            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696350886421665/441B37D17213CA1B82174A8988ED23AA2D59336E/",
-            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696350886421832/BBE3592A7496E444E116271913178A8ED41F5323/"
-          }],
-          "commands": [{
-              "name": "Poison Dart",
-              "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640561281/E6C9BE0EB9F4357B31FB1459E8615D85BBE6F660/",
-              "pip": 1
-            },
-            {
-              "name": "Fierce and Deadly",
-              "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640561707/6E91E487B7F9AD4225A336081B4AB58F4AAB3CD2/",
-              "pip": 2
-            },
-            {
-              "name": "Memorable and Funny Quote",
-              "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640562097/E3FFDCB0E1AC2EB8E690C90C0599AA093788759C/",
-              "pip": 3
-            }
-          ]
-        },
-        {
-          "name": "Silri",
-          "title": "Dark Witch",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735151492/82278C71E894B0710E02376909241ECAAD41F8C7/",
-          "size": "small",
-          "type": "Trooper",
-          "points": 150,
-          "speed": 2,
-          "upgrades": {
-            "Force": 1,
-            "Training": 2,
-            "Illicit": 1
-          },
-          "minis": [{
-            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696984835654759/B33E7C3B1D34E7DDAC7B617DC466F12FF66774E1/",
-            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696984835654931/3ACEDEC6F99A311A245C7492883DAB9720D05348/"
-          }],
-          "commands": [{
-              "name": "I Shall Rip Out Their Souls",
-              "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735165967/E52C14F2A96A0DDA785B12C9400F47E9E5E2F4A7/",
-              "pip": 1
-            },
-            {
-              "name": "Come Closer",
-              "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735165400/6E97DF5AC3BF3172E316DD409240AA04BD4C6DE4/",
-              "pip": 2
-            },
-            {
-              "name": "They Will Know Fear",
-              "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735164916/B6CDD990B416AE4B7897AB3A27E35ACD4A46DE07/",
-              "pip": 3
-            }
-          ]
-        }
-      ],
-      "Corps": [{
-        "name": "Grenadier Squad",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735128053/8071373F43B26B004A85BB1423AE10D8BA9FA2D9/",
-        "size": "small",
-        "type": "Trooper",
-        "points": 33,
-        "speed": 2,
-        "upgrades": {
-          "Personnel": 1,
-          "Illicit": 1,
-          "Comms": 1,
-          "Gear": 1,
-          "Grenades": 2
-        },
-        "minis": [{
-            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365822891/9245AC0020E31C369AE4129B35D0BA467A01F2B4/",
-            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365823446/E94BC334A0B2F95CFB75FEDC3A0FEDF2FFD5A970/"
+            "minis": [{
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696515362210843/CDD5E72C8CE5B42739060E6ADC81DC64751294F0/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696515362211007/246011C13B53F2A881968B8996802F50B33D075F/"
+            }],
+            "commands": [{
+                "name": " I Like Explosions",
+                "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735209433/1B7DC25C849E9B7D2657E40E71FF198B8588381F/",
+                "pip": 1
+              },
+              {
+                "name": "Nothing Stops Me",
+                "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735210006/8EAEC185C0C43B5D6099ED763E9B3D4FC5C493A5/",
+                "pip": 2
+              },
+              {
+                "name": "I Stand In the Shadow",
+                "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735210753/1BF727CB55BFAB8151A9F9A368C91C6B76248636/",
+                "pip": 3
+              }
+            ]
           },
           {
-            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365824294/5F43B720E0198A078E25BA472E7DDBCA8F51CBEC/",
-            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365824481/27693FC709ADF50440623C6347A11151608D5E2F/"
+            "name": "Pre Vizsla",
+            "title": "Defender of Tradition",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640671157/50ED9FE9885FBF3530E3BF5D7E2ECA85E331972F/",
+            "size": "small",
+            "type": "Mandalorian Trooper",
+            "points": 165,
+            "speed": 3,
+            "upgrades": {
+                "Command": 1,
+              "Training": 2,
+              "Illicit": 1,
+              "Gear": 1,
+              "Armament": 2
+            },
+            "minis": [{
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696350886396178/07FB37CA0A11552BEF96C3DCA10AF232C65AF7B6/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696350886396372/35E5047903DC30F882B40719809ECF90DBC65A5A/"
+            }],
+            "commands": [{
+                "name": "Blade Launcher",
+                "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640671650/36CC81AF419D113B28FC5AB7CF6B3210085DFB45/",
+                "pip": 1
+              },
+              {
+                "name": "Warlord of Mandalore",
+                "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640672041/2F91858F91AB3648DDEF429A5C1C584D129634C1/",
+                "pip": 2
+              },
+              {
+                "name": "Rise of the Death Watch",
+                "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640672498/BED2FE1183721CCB1A1B623A6C4DED69383DA739/",
+                "pip": 3
+              }
+            ]
           },
           {
-            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365824294/5F43B720E0198A078E25BA472E7DDBCA8F51CBEC/",
-            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365824481/27693FC709ADF50440623C6347A11151608D5E2F/"
+            "name": "Tyber Zann",
+            "title": "Cold, Methodical, and Ruthless",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735070640/74612E44D0AF4F505937EE2E0DAF21C08EB4E15B/",
+            "size": "small",
+            "type": "Trooper",
+            "points": 140,
+            "speed": 2,
+            "upgrades": {
+              "Command": 1,
+              "Training": 1,
+              "Illicit": 1,
+              "Gear": 1
+            },
+            "minis": [{
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365775807/337D2A5009DD4A91F0A469B418D4C77867FDF52D/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365776115/8606DE28865E723D2343D17F890A99959E25AC8F/"
+            }],
+            "commands": [{
+                "name": "Orbital Bombardment",
+                "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735071380/B7CEA3F14638418D63BEFF3F7A611F5078D31667/",
+                "pip": 1
+              },
+              {
+                "name": "Corruption is My Weapon",
+                "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735071871/7524B10AD4DB25DAA1E5F5F0275A58DE9C3EC666/",
+                "pip": 2
+              },
+              {
+                "name": "Everyone Has a Price",
+                "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735072378/3A407CC85B615E03763D5F22E7116CA3FB217F0B/",
+                "pip": 3
+              }
+            ]
+          },
+          {
+            "name": "Urai Fen",
+            "title": "Loyal Lieutenant",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735039360/1B0C02842ADDAA687687E529BE8B33983CAD933F/",
+            "size": "small",
+            "type": "Trooper",
+            "points": 90,
+            "speed": 2,
+            "upgrades": {
+              "Training": 2,
+              "Illicit": 1,
+              "Gear": 1
+            },
+            "minis": [{
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696984835649865/8FC3F2E4E22555D72BDF283AD0E686537F33A043/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696984835650100/057E08B03AAE7CA89B585D8916BB25023B63341A/"
+            }],
+            "commands": [{
+                "name": "Strike and Fade",
+                "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735040340/32D15FA78098AB05AD6D98B51631935EC6DEC3C3/",
+                "pip": 1
+              },
+              {
+                "name": "The Consortium Commands It",
+                "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735041426/F309B5F10C9F44B3E9FE50A42FAD541185DEE9A5/",
+                "pip": 2
+              },
+              {
+                "name": "No Mission is too Dangerous",
+                "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735047596/1516182BE8ED3D0635F56F830C4FB85F869C477C/",
+                "pip": 3
+              }
+            ]
           }
-        ]
-      }],
-      "Special Forces": [{
-          "name": "Mercenary Assault Squad",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735112958/CA567516B908134719A9891C1855E81C88E39E7E/",
-          "size": "small",
-          "type": "Trooper",
-          "points": 72,
-          "speed": 1,
-          "upgrades": {
-            "Heavy Weapon": 1,
-            "Training": 1,
-            "Illicit": 1,
-            "Gear": 1,
-            "Armament": 1
+        ],
+        "Operative": [{
+            "name": "Bo-Katan Kryze",
+            "title": "Death Watch Lieutenant",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640560685/8771A2D7895F003917A4CD9D170E7D5FBAA81D65/",
+            "size": "small",
+            "type": "Mandalorian Trooper",
+            "points": 120,
+            "speed": 3,
+            "upgrades": {
+              "Training": 2,
+              "Gear": 1,
+              "Armament": 2
+            },
+            "minis": [{
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696350886421665/441B37D17213CA1B82174A8988ED23AA2D59336E/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696350886421832/BBE3592A7496E444E116271913178A8ED41F5323/"
+            }],
+            "commands": [{
+                "name": "Poison Dart",
+                "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640561281/E6C9BE0EB9F4357B31FB1459E8615D85BBE6F660/",
+                "pip": 1
+              },
+              {
+                "name": "Fierce and Deadly",
+                "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640561707/6E91E487B7F9AD4225A336081B4AB58F4AAB3CD2/",
+                "pip": 2
+              },
+              {
+                "name": "Memorable and Funny Quote",
+                "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640562097/E3FFDCB0E1AC2EB8E690C90C0599AA093788759C/",
+                "pip": 3
+              }
+            ]
           },
-          "minis": [{
-              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365876771/3C9BD90A0E8E6BA277A1133D1AF61B2D44C2DEB0/",
-              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365877132/5DEAE7FFFF586E0ACBFD5BB29AF4869E6D675044/"
+          {
+            "name": "Silri",
+            "title": "Dark Witch",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735151492/82278C71E894B0710E02376909241ECAAD41F8C7/",
+            "size": "small",
+            "type": "Trooper",
+            "points": 150,
+            "speed": 2,
+            "upgrades": {
+              "Force": 1,
+              "Training": 2,
+              "Illicit": 1
             },
-            {
-              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365880281/45B6B327A692DBFDE6D5E5F642EB7FEBBC2A0A4F/",
-              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365878394/8AD2A611C51D78184D8E4204A720C59EEC2C7755/"
-            },
-            {
-              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365879761/026D7FD22C9074A12068AE05CE293EBB833FC70E/",
-              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365878394/8AD2A611C51D78184D8E4204A720C59EEC2C7755/"
-            },
-            {
-              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365879295/EC66EBB1550D6D61DAC1AC96CAE92A0273B06A45/",
-              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365878394/8AD2A611C51D78184D8E4204A720C59EEC2C7755/"
-            }
-          ]
-        },
-        {
-          "name": "Infiltrators",
-          "title": "Strike Team",
-          "heavyWeaponTeam": true,
-          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638837280/E9F99045D6B7FA98055D860B700FB5402373070B/",
+            "minis": [{
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696984835654759/B33E7C3B1D34E7DDAC7B617DC466F12FF66774E1/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696984835654931/3ACEDEC6F99A311A245C7492883DAB9720D05348/"
+            }],
+            "commands": [{
+                "name": "I Shall Rip Out Their Souls",
+                "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735165967/E52C14F2A96A0DDA785B12C9400F47E9E5E2F4A7/",
+                "pip": 1
+              },
+              {
+                "name": "Come Closer",
+                "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735165400/6E97DF5AC3BF3172E316DD409240AA04BD4C6DE4/",
+                "pip": 2
+              },
+              {
+                "name": "They Will Know Fear",
+                "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735164916/B6CDD990B416AE4B7897AB3A27E35ACD4A46DE07/",
+                "pip": 3
+              }
+            ]
+          }
+        ],
+        "Corps": [{
+          "name": "Grenadier Squad",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735128053/8071373F43B26B004A85BB1423AE10D8BA9FA2D9/",
           "size": "small",
           "type": "Trooper",
-          "points": 22,
+          "points": 33,
           "speed": 2,
           "upgrades": {
-            "Heavy Weapon": 1,
-            "Training": 1,
+            "Personnel": 1,
             "Illicit": 1,
             "Comms": 1,
-            "Gear": 1
+            "Gear": 1,
+            "Grenades": 2
           },
           "minis": [{
-            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021698068156464007/651A73813208989A1D36777648388ABBF2F11376/",
-            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021698068156464181/1FABB24F11BA883FEB5A7CB16CB7EAE86CB50402/"
-          }]
-        }
-      ],
-      "Support": [{
-        "name": "Droideka MKII",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638672297/9A21A780F96BA78A849FD5FFF320FF4D0581259A/",
-        "size": "medium",
-        "type": "Ground Vehicle",
-        "points": 110,
-        "speed": 1,
-        "upgrades": {
-          "Comms": 1,
-          "Hardpoint": 1
-        },
-        "minis": [{
-          "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365798378/BE8A6530AC8273FFE4549147A2F83C7A77BA5597/",
-          "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365798566/72991BC6227C745C3157A2328EEFDF4F1671924D/"
-        }]
-      }],
-      "Heavy": [{
-          "name": "Cuddles",
-          "title": "Ferocious One",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735162413/20647BC13446FAA4A0951E6E9D5003D9904557E9/",
-          "size": "huge",
-          "type": "Creature Trooper",
-          "points": 135,
-          "speed": 1,
-          "upgrades": {
-            "Creature": 1
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365822891/9245AC0020E31C369AE4129B35D0BA467A01F2B4/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365823446/E94BC334A0B2F95CFB75FEDC3A0FEDF2FFD5A970/"
+            },
+            {
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365824294/5F43B720E0198A078E25BA472E7DDBCA8F51CBEC/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365824481/27693FC709ADF50440623C6347A11151608D5E2F/"
+            },
+            {
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365824294/5F43B720E0198A078E25BA472E7DDBCA8F51CBEC/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365824481/27693FC709ADF50440623C6347A11151608D5E2F/"
+            }
+          ]
+        }],
+        "Special Forces": [{
+            "name": "Mercenary Assault Squad",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735112958/CA567516B908134719A9891C1855E81C88E39E7E/",
+            "size": "small",
+            "type": "Trooper",
+            "points": 72,
+            "speed": 1,
+            "upgrades": {
+              "Heavy Weapon": 1,
+              "Training": 1,
+              "Illicit": 1,
+              "Gear": 1,
+              "Armament": 1
+            },
+            "minis": [{
+                "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365876771/3C9BD90A0E8E6BA277A1133D1AF61B2D44C2DEB0/",
+                "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365877132/5DEAE7FFFF586E0ACBFD5BB29AF4869E6D675044/"
+              },
+              {
+                "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365880281/45B6B327A692DBFDE6D5E5F642EB7FEBBC2A0A4F/",
+                "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365878394/8AD2A611C51D78184D8E4204A720C59EEC2C7755/"
+              },
+              {
+                "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365879761/026D7FD22C9074A12068AE05CE293EBB833FC70E/",
+                "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365878394/8AD2A611C51D78184D8E4204A720C59EEC2C7755/"
+              },
+              {
+                "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365879295/EC66EBB1550D6D61DAC1AC96CAE92A0273B06A45/",
+                "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365878394/8AD2A611C51D78184D8E4204A720C59EEC2C7755/"
+              }
+            ]
           },
-          "minis": [{
-            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696984835661685/1668BEEE179A260B9988D3C60872160FF93CEE51/",
-            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696984835661821/7B52CEEC4169ACB4A32C0489D4A878BC72030DE2/"
-          }]
-        },
-        {
-          "name": "Canderous Class Assault Tank",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556639132725/E48531757B6B7D582D3D3AD313D790E21FAD2655/",
-          "size": "epic",
-          "type": "Repulsor Vehicle",
-          "points": 180,
+          {
+            "name": "Infiltrators",
+            "title": "Strike Team",
+            "heavyWeaponTeam": true,
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638837280/E9F99045D6B7FA98055D860B700FB5402373070B/",
+            "size": "small",
+            "type": "Trooper",
+            "points": 22,
+            "speed": 2,
+            "upgrades": {
+              "Heavy Weapon": 1,
+              "Training": 1,
+              "Illicit": 1,
+              "Comms": 1,
+              "Gear": 1
+            },
+            "minis": [{
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021698068156464007/651A73813208989A1D36777648388ABBF2F11376/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021698068156464181/1FABB24F11BA883FEB5A7CB16CB7EAE86CB50402/"
+            }]
+          }
+        ],
+        "Support": [{
+          "name": "Droideka MKII",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638672297/9A21A780F96BA78A849FD5FFF320FF4D0581259A/",
+          "size": "medium",
+          "type": "Ground Vehicle",
+          "points": 110,
           "speed": 1,
           "upgrades": {
-            "Pilot": 1,
-            "Comms": 1
-          },
-          "minis": [{
-            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697231133144508/4BB9CD650D4795CEB6C81CBB95AB31DA7365F7EF/",
-            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697231133144655/86527E20BE4B11B688A7F14894775EBE347C475B/"
-          }]
-        },
-        {
-          "name": "Missile Attack Launcher",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556639035496/5F41C143C5ADE4631FFDC497CD8053BF7F0F9E43/",
-          "size": "epic",
-          "type": "Repulsor Vehicle",
-          "points": 140,
-          "speed": 1,
-          "upgrades": {
-            "Pilot": 1,
-            "Ordnance": 2,
             "Comms": 1,
             "Hardpoint": 1
           },
           "minis": [{
-            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021698013227951332/BDA59EEE85EBD5AE628E38AC9B0C539D59DC9525/",
-            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021698013227951474/8641BEED6BF44F70975F6F27093477327361567C/"
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365798378/BE8A6530AC8273FFE4549147A2F83C7A77BA5597/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365798566/72991BC6227C745C3157A2328EEFDF4F1671924D/"
           }]
+        }],
+        "Heavy": [{
+            "name": "Cuddles",
+            "title": "Ferocious One",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735162413/20647BC13446FAA4A0951E6E9D5003D9904557E9/",
+            "size": "huge",
+            "type": "Creature Trooper",
+            "points": 135,
+            "speed": 1,
+            "upgrades": {
+              "Creature": 1
+            },
+            "minis": [{
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696984835661685/1668BEEE179A260B9988D3C60872160FF93CEE51/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696984835661821/7B52CEEC4169ACB4A32C0489D4A878BC72030DE2/"
+            }]
+          },
+          {
+            "name": "Canderous Class Assault Tank",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738556639132725/E48531757B6B7D582D3D3AD313D790E21FAD2655/",
+            "size": "epic",
+            "type": "Repulsor Vehicle",
+            "points": 180,
+            "speed": 1,
+            "upgrades": {
+              "Pilot": 1,
+              "Comms": 1
+            },
+            "minis": [{
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697231133144508/4BB9CD650D4795CEB6C81CBB95AB31DA7365F7EF/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697231133144655/86527E20BE4B11B688A7F14894775EBE347C475B/"
+            }]
+          },
+          {
+            "name": "Missile Attack Launcher",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738556639035496/5F41C143C5ADE4631FFDC497CD8053BF7F0F9E43/",
+            "size": "epic",
+            "type": "Repulsor Vehicle",
+            "points": 140,
+            "speed": 1,
+            "upgrades": {
+              "Pilot": 1,
+              "Ordnance": 2,
+              "Comms": 1,
+              "Hardpoint": 1
+            },
+            "minis": [{
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021698013227951332/BDA59EEE85EBD5AE628E38AC9B0C539D59DC9525/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021698013227951474/8641BEED6BF44F70975F6F27093477327361567C/"
+            }]
+          }
+        ]
+      }
+    },
+    "upgrades": {
+      "Armament": [{
+          "name": "DXR-6 Focused Fire Config",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735115917/9E0BA5F8013B1491D5EF74BED3C484BA0F3052AB/",
+          "flip": {
+            "name": "DXR-6 Power Shot Config",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735116297/419AF3D6925D7004CA92BE249969A1BFB42B9742/"
+          },
+          "points": 8,
+          "restrictions": {
+            "include": {
+              "unit": ["Mercenary Assault Squad"]
+            }
+          }
+        },
+        {
+          "name": "Defilers Blaster",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735211533/50044D04BF35EAE0926C6A86936DC5A2DA95B0FD/",
+          "points": 15,
+          "restrictions": {
+            "include": {
+              "unit": ["Defiler"]
+            }
+          }
+        },
+        {
+          "name": "Defilers Slug Thrower",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735211196/02C8A1B676C2CFC2A17BFB8819B8C6981DAD74D7/",
+          "points": 15,
+          "restrictions": {
+            "include": {
+              "unit": ["Defiler"]
+            }
+          }
+        },
+        {
+          "name": "Elite Wrist Mounted Flamethrower",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640412575/1F3B56925DC71E5FAFDD405CF117B72CC0DB3B42/",
+          "points": 10,
+          "restrictions": {
+            "include": {
+              "type": ["Mandalorian Trooper"],
+              "rank": ["Commander", "Operative"]
+            }
+          }
+        },
+        {
+          "name": "Gauntlet Blades",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640410174/FF136859D9C64EFC2B33CEDF111204596228A4B0/",
+          "points": 6,
+          "restrictions": {
+            "include": {
+              "Unit": ["Bo-Katan Kryze"]
+            }
+          }
+        },
+        {
+          "name": "Wrist Rocket",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640428446/AE6DB75F1A3643AF7DCB7CA1BA8DAFF87E7A5C8A/",
+          "points": 6,
+          "restrictions": {
+            "include": {
+              "type": ["Mandalorian Trooper"]
+            }
+          }
+        },
+        {
+          "name": "Whistling Birds",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640411728/A3BCBA7C1B49EE5B996A55A8FC6CB581A9EAA96C/",
+          "points": 10,
+          "restrictions": {
+            "include": {
+              "type": ["Mandalorian Trooper"],
+              "rank": ["Commander", "Operative"]
+            }
+          }
+        },
+        {
+          "name": "Wrist Mounted Blasters",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640413937/745B5BEAD23640A8222A54287029ACF70F9A81EE/",
+          "points": 10,
+          "restrictions": {
+            "include": {
+              "type": ["Mandalorian Trooper"]
+            }
+          }
+        },
+        {
+          "name": "Wrist Mounted Flamethrower",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640416270/08971192288A83DD208F4D91D02703E094090133/",
+          "points": 10,
+          "restrictions": {
+            "include": {
+              "type": ["Mandalorian Trooper"]
+            }
+          }
+        }
+      ],
+      "Command": [{
+        "name": "Racketeering",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735072829/84C080C8B919D06884AF3BC12ADDB58B524C5271/",
+        "points": 5,
+        "restrictions": {
+          "include": {
+            "unit": ["Tyber Zann"]
+          }
+        }
+      }],
+      "Gear": [{
+          "name": "Electro Grappling Line",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640414601/68D77CCDC40F2F1F103F1AF7568727FA6F9E8CE9/",
+          "points": 3,
+          "restrictions": {
+            "include": {
+              "type": ["Mandalorian Trooper"]
+            }
+          }
+        },
+        {
+          "name": "Personal Combat Shield",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640410953/DEF506B2DB3747BF1DD5ABBECEB36764450D0B7C/",
+          "points": 15,
+          "restrictions": {
+            "include": {
+              "type": ["Mandalorian Trooper"]
+            }
+          }
+        },
+        {
+          "name": "Target Designator",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638971560/0F6F9FB93CD712E0D2B5916DE3392EF98BDAB3DC/",
+          "points": 6,
+          "restrictions": {
+            "include": {
+              "faction": ["Scum"]
+            }
+          }
+        },
+        {
+          "name": "Vambrace Reloader",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640415774/E6C7E28AAA6C1EC3CB460AE5947F2AAE2960EF15/",
+          "points": 3,
+          "restrictions": {
+            "include": {
+              "type": ["Mandalorian Trooper"]
+            }
+          }
+        }
+      ],
+      "Grenade": [{
+        "name": "Cluster Grenades",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640427155/BAB17778B9558A117B7672B361169E1429B8FFBD/",
+        "points": 5,
+        "restrictions": {
+          "include": {
+            "type": ["Mandalorian Trooper"]
+          }
+        }
+      }],
+      "Hardpoint": [{
+          "name": "Ion Cannon",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638673967/DCE9270CEAD120F4DD068CDF23C326E2371DC75C/",
+          "points": 15,
+          "restrictions": {
+            "include": {
+              "unit": ["Droideka MKII"]
+            }
+          }
+        },
+        {
+          "name": "Tri Laser Cannons",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638674750/6057A2DACA2F104F889921E46FF3AC717DE4B962/",
+          "points": 25,
+          "restrictions": {
+            "include": {
+              "unit": ["Droideka MKII"]
+            }
+          }
+        },
+        {
+          "name": "Auto Loader",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638973875/12A8A6DAC58F8AD954452CFC4B0DC38ED932407B/",
+          "points": 5,
+          "restrictions": {
+            "include": {
+              "unit": ["Missile Attack Launcher"]
+            }
+          }
+        },
+        {
+          "name": "Expanded Launch Tubes",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638975154/0F3C24800735B4BB8E0B156258FF032116C503F0/",
+          "points": 4,
+          "restrictions": {
+            "include": {
+              "unit": ["Missile Attack Launcher"]
+            }
+          }
+        },
+        {
+          "name": "Fire Direction Center",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638972654/A3E6D0BCB701B2DEFB788DA9CEB3F163F4025EEF/",
+          "points": 8,
+          "restrictions": {
+            "include": {
+              "unit": ["Missile Attack Launcher"]
+            }
+          }
+        }
+      ],
+      "Heavy Weapon": [{
+          "name": "ACP Trooper",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735115264/1D92758AC20C28AA48019DCD564E31D271B20A2C/",
+          "mini": {
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021698068156270983/519A43ACE1F5461D51AA1BA81ADF4A5C37BEF9E4/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021698068156271135/318D90BCDE4E3E362797A38823A21FF17FAF651E/"
+          },
+          "points": 30,
+          "restrictions": {
+            "include": {
+              "unit": ["Mercenary Assault Squad"]
+            }
+          }
+        },
+        {
+          "name": "Cycler Rifle Sniper",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638840781/F5E96AC72E6D27DDA4AAC1467261D01B33AAD476/",
+          "mini": {
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021698068156464799/C000C8B3CF81A11687F6B39574ACE73A8FEF1A28/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021698068156464974/774C639F2300D7816E654D8276585556DEAD6432/"
+          },
+          "points": 30,
+          "restrictions": {
+            "include": {
+              "unit": ["Infiltrators"]
+            }
+          }
+        },
+        {
+          "name": "Detonite Charge Saboteur",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638839094/D0D81BD4107CD9647D5C041676865BAA1CFF027D/",
+          "mini": {
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021698068156470652/C2D7BF3AADDECA01B8C5442DF6419D2F1FF2389B/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021698068156470835/5E87EEBFF97975FF1A8985808C26B645EC53CAAC/"
+          },
+          "points": 28,
+          "restrictions": {
+            "include": {
+              "unit": ["Infiltrators"]
+            }
+          }
+        },
+        {
+          "name": "Concussion Rifle Trooper",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735114688/7F06A4AA27BBEFE8D08FF392CB8E7E8FC4083F6B/",
+          "mini": {
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021698068156271785/233649FA9B56D451B97E71E706C777AD529B0810/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021698068156271944/671F0E7483F7DA3D92D551E5042698EE06E510EB/"
+          },
+          "points": 30,
+          "restrictions": {
+            "include": {
+              "unit": ["Mercenary Assault Squad"]
+            }
+          }
+        },
+        {
+          "name": "Mercenary Assault Trooper",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735114176/44B42375B5C11B5BADA3029FC1BF45BBCE56575C/",
+          "mini": {
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365878231/A04BECDA5804E0A38FF974528C70AB5AAAE4B715/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365878394/8AD2A611C51D78184D8E4204A720C59EEC2C7755/"
+          },
+          "points": 18,
+          "restrictions": {
+            "include": {
+              "unit": ["Mercenary Assault Squad"]
+            }
+          }
+        }
+      ],
+      "Illicit": [{
+          "name": "Black Market Weapon Modifications",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735317485/24DDC0FD309F0F75C04559832E888C0ED6E52CB1/",
+          "points": 10,
+          "restrictions": {
+            "include": {
+              "type": ["Trooper"]
+            }
+          }
+        },
+        {
+          "name": "Glitterstim",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735317047/31F1D322D5E1C986DFB20E582590653A0B0CAF7F/",
+          "points": 5,
+          "restrictions": {
+            "include": {
+              "type": ["Trooper"]
+            }
+          }
+        },
+        {
+          "name": "Outer Rim Modifications",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735317893/3A2F6E60B2980B2608C4DA9B029E1C4B2F257560/",
+          "points": 10,
+          "restrictions": {
+            "include": {
+              "type": ["Droid Trooper", "Ground Vehicle", "Repulsor Vehicle"]
+            }
+          }
+        },
+        {
+          "name": "Personal Shield",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735181899/208D960208099BDF4461E2E09204169FF959FC52/",
+          "points": 8,
+          "restrictions": {
+            "include": {
+              "type": ["Trooper"]
+            }
+          }
+        },
+        {
+          "name": "Piercing Dart",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640417521/8FE5D7BA77D3E25ED3FB812B261AD3E3DD88EF10/",
+          "points": 6,
+          "restrictions": {
+            "include": {
+              "type": ["Mandalorian Trooper"]
+            }
+          }
+        },
+        {
+          "name": "Poison Dart",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640416768/843BE27BBC497AC58846ED0295BFC661E391BEDF/",
+          "points": 6,
+          "restrictions": {
+            "include": {
+              "type": ["Mandalorian Trooper"]
+            }
+          }
+        },
+        {
+          "name": "Self-Destruct Sequencing",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735318468/FF453A532280D1626623E10338ED5D288FA47B6E/",
+          "points": 5,
+          "restrictions": {
+            "include": {
+              "type": ["Droid Trooper", "Ground Vehicle", "Repulsor Vehicle"]
+            }
+          }
+        },
+        {
+          "name": "Stimpack",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735182732/C3B2C7FA3F05FC71D5C3ED089A8037A92171A103/",
+          "points": 5,
+          "restrictions": {
+            "include": {
+              "type": ["Trooper"]
+            }
+          }
+        },
+        {
+          "name": "Wrist Mounted Disintegrator",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640426484/CAA3EE923F691577E92958B5BAA38AB8221EDF61/",
+          "points": 10,
+          "restrictions": {
+            "include": {
+              "type": ["Mandalorian Trooper"]
+            }
+          }
+        },
+        {
+          "name": "Wrist Mounted Disruptor",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640427887/A13950D10FE563732533E3C91584E465D47F05F5/",
+          "points": 3,
+          "restrictions": {
+            "include": {
+              "type": ["Mandalorian Trooper"]
+            }
+          }
+        },
+        {
+          "name": "Wrist Mounted Slugthrower",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640413367/65913371690794787832DA2D5D970C42E484A5E0/",
+          "points": 6,
+          "restrictions": {
+            "include": {
+              "type": ["Mandalorian Trooper"]
+            }
+          }
+        }
+      ],
+      "Ordnance": [{
+        "name": "Carbonite Missiles",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638969743/EEA573B6F2E054B13E3A220888FFDC03906CA74C/",
+        "points": 10,
+        "restrictions": {
+          "include": {
+            "unit": ["Missile Attack Launcher"]
+          }
+        }
+      }],
+      "Personnel": [{
+          "name": "Extra Grenadier",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735129141/9805A2223DB725582E8105414121E4505895193F/",
+          "mini": {
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365824294/5F43B720E0198A078E25BA472E7DDBCA8F51CBEC/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365824481/27693FC709ADF50440623C6347A11151608D5E2F/"
+          },
+          "points": 11,
+          "restrictions": {
+            "include": {
+              "unit": ["Grenadier Squad"]
+            }
+          }
+        },
+        {
+          "name": "Forward Observer",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735128538/8947A618AAA4A4A0D92B3C7C12E651A494FDEDA7/",
+          "mini": {
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696984835690936/3C42012D036A5F420DD9ADD158E66901AB4A5671/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696984835691208/1C0C86466F3298E9663CEE3961B7F3F6DBED4DD9/"
+          },
+          "points": 17,
+          "restrictions": {
+            "include": {
+              "unit": ["Grenadier Squad"]
+            }
+          }
+        }
+      ],
+      "Pilot": [{
+          "name": "Veteran Mechanic",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638970650/AE724920A75FF2F1D840AC3DE707166D67EA0323/",
+          "points": 8,
+          "restrictions": {
+            "include": {
+              "unit": ["Missile Attack Launcher"]
+            }
+          }
+        },
+        {
+          "name": "Veteran Tank Pilot",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556639094597/6678DD776757AAFAFA216FB7538DA7BC35147757/",
+          "points": 5,
+          "restrictions": {
+            "include": {
+              "unit": ["Canderous Class Assault Tank"]
+            }
+          }
+        },
+        {
+          "name": "Pirate Speed Freak",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556639095451/373D5F83FB4E8F4D3223A3CAD3E6A8E661FAAC2F/",
+          "points": 8,
+          "restrictions": {
+            "include": {
+              "unit": ["Canderous Class Assault Tank"]
+            }
+          }
+        },
+        {
+          "name": "Pirate Hotshot",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556639096066/A06D6ABDA4E9B1B1F2A63187D6B24F13D5D283A5/",
+          "points": 15,
+          "restrictions": {
+            "include": {
+              "unit": ["Canderous Class Assault Tank"]
+            }
+          }
+        }
+      ],
+      "Training": [{
+          "name": "Advanced Assault Training",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640415256/3E0DA25CB2B44F7093E46DADA1965C0DBD3C703A/",
+          "points": 5,
+          "restrictions": {
+            "include": {
+              "type": ["Mandalorian Trooper"]
+            }
+          }
+        },
+        {
+          "name": "Blend In",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735182379/DD072454059CA2BB5CB206848D0BCBF656F494F9/",
+          "points": 10,
+          "restrictions": {
+            "include": {
+              "faction": ["Scum"],
+              "rank": ["Commander", "Operative", "Special Forces"]
+            }
+          }
+        },
+        {
+          "name": "Faithful Companion",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735164302/4C5E96A3397E6BD2F8C07A61AA9B25FDC0D8C031/",
+          "points": 8,
+          "restrictions": {
+            "include": {
+              "unit": ["Beast Master", "Silri"]
+            }
+          }
+        },
+        {
+          "name": "Rising Phoenix Training",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640409422/F8AF40A8E8F4C87CA364A0ADADA7281F20F8F0D7/",
+          "points": 10,
+          "restrictions": {
+            "include": {
+              "type": ["Mandalorian Trooper"]
+            }
+          }
         }
       ]
     }
-  },
-  "upgrades": {
-    "Armament": [{
-        "name": "DXR-6 Focused Fire Config",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735115917/9E0BA5F8013B1491D5EF74BED3C484BA0F3052AB/",
-        "flip": {
-          "name": "DXR-6 Power Shot Config",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735116297/419AF3D6925D7004CA92BE249969A1BFB42B9742/"
-        },
-        "points": 8,
-        "restrictions": {
-          "include": {
-            "unit": ["Mercenary Assault Squad"]
-          }
-        }
-      },
-      {
-        "name": "Defilers Blaster",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735211533/50044D04BF35EAE0926C6A86936DC5A2DA95B0FD/",
-        "points": 15,
-        "restrictions": {
-          "include": {
-            "unit": ["Defiler"]
-          }
-        }
-      },
-      {
-        "name": "Defilers Slug Thrower",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735211196/02C8A1B676C2CFC2A17BFB8819B8C6981DAD74D7/",
-        "points": 15,
-        "restrictions": {
-          "include": {
-            "unit": ["Defiler"]
-          }
-        }
-      },
-      {
-        "name": "Elite Wrist Mounted Flamethrower",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640412575/1F3B56925DC71E5FAFDD405CF117B72CC0DB3B42/",
-        "points": 10,
-        "restrictions": {
-          "include": {
-            "type": ["Mandalorian Trooper"],
-            "rank": ["Commander", "Operative"]
-          }
-        }
-      },
-      {
-        "name": "Gauntlet Blades",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640410174/FF136859D9C64EFC2B33CEDF111204596228A4B0/",
-        "points": 6,
-        "restrictions": {
-          "include": {
-            "Unit": ["Bo-Katan Kryze"]
-          }
-        }
-      },
-      {
-        "name": "Wrist Rocket",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640428446/AE6DB75F1A3643AF7DCB7CA1BA8DAFF87E7A5C8A/",
-        "points": 6,
-        "restrictions": {
-          "include": {
-            "type": ["Mandalorian Trooper"]
-          }
-        }
-      },
-      {
-        "name": "Whistling Birds",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640411728/A3BCBA7C1B49EE5B996A55A8FC6CB581A9EAA96C/",
-        "points": 10,
-        "restrictions": {
-          "include": {
-            "type": ["Mandalorian Trooper"],
-            "rank": ["Commander", "Operative"]
-          }
-        }
-      },
-      {
-        "name": "Wrist Mounted Blasters",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640413937/745B5BEAD23640A8222A54287029ACF70F9A81EE/",
-        "points": 10,
-        "restrictions": {
-          "include": {
-            "type": ["Mandalorian Trooper"]
-          }
-        }
-      },
-      {
-        "name": "Wrist Mounted Flamethrower",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640416270/08971192288A83DD208F4D91D02703E094090133/",
-        "points": 10,
-        "restrictions": {
-          "include": {
-            "type": ["Mandalorian Trooper"]
-          }
-        }
-      }
-    ],
-    "Command": [{
-      "name": "Racketeering",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735072829/84C080C8B919D06884AF3BC12ADDB58B524C5271/",
-      "points": 5,
-      "restrictions": {
-        "include": {
-          "unit": ["Tyber Zann"]
-        }
-      }
-    }],
-    "Gear": [{
-        "name": "Electro Grappling Line",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640414601/68D77CCDC40F2F1F103F1AF7568727FA6F9E8CE9/",
-        "points": 3,
-        "restrictions": {
-          "include": {
-            "type": ["Mandalorian Trooper"]
-          }
-        }
-      },
-      {
-        "name": "Personal Combat Shield",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640410953/DEF506B2DB3747BF1DD5ABBECEB36764450D0B7C/",
-        "points": 15,
-        "restrictions": {
-          "include": {
-            "type": ["Mandalorian Trooper"]
-          }
-        }
-      },
-      {
-        "name": "Target Designator",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638971560/0F6F9FB93CD712E0D2B5916DE3392EF98BDAB3DC/",
-        "points": 6,
-        "restrictions": {
-          "include": {
-            "faction": ["Scum"]
-          }
-        }
-      },
-      {
-        "name": "Vambrace Reloader",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640415774/E6C7E28AAA6C1EC3CB460AE5947F2AAE2960EF15/",
-        "points": 3,
-        "restrictions": {
-          "include": {
-            "type": ["Mandalorian Trooper"]
-          }
-        }
-      }
-    ],
-    "Grenade": [{
-      "name": "Cluster Grenades",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640427155/BAB17778B9558A117B7672B361169E1429B8FFBD/",
-      "points": 5,
-      "restrictions": {
-        "include": {
-          "type": ["Mandalorian Trooper"]
-        }
-      }
-    }],
-    "Hardpoint": [{
-        "name": "Ion Cannon",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638673967/DCE9270CEAD120F4DD068CDF23C326E2371DC75C/",
-        "points": 15,
-        "restrictions": {
-          "include": {
-            "unit": ["Droideka MKII"]
-          }
-        }
-      },
-      {
-        "name": "Tri Laser Cannons",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638674750/6057A2DACA2F104F889921E46FF3AC717DE4B962/",
-        "points": 25,
-        "restrictions": {
-          "include": {
-            "unit": ["Droideka MKII"]
-          }
-        }
-      },
-      {
-        "name": "Auto Loader",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638973875/12A8A6DAC58F8AD954452CFC4B0DC38ED932407B/",
-        "points": 5,
-        "restrictions": {
-          "include": {
-            "unit": ["Missile Attack Launcher"]
-          }
-        }
-      },
-      {
-        "name": "Expanded Launch Tubes",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638975154/0F3C24800735B4BB8E0B156258FF032116C503F0/",
-        "points": 4,
-        "restrictions": {
-          "include": {
-            "unit": ["Missile Attack Launcher"]
-          }
-        }
-      },
-      {
-        "name": "Fire Direction Center",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638972654/A3E6D0BCB701B2DEFB788DA9CEB3F163F4025EEF/",
-        "points": 8,
-        "restrictions": {
-          "include": {
-            "unit": ["Missile Attack Launcher"]
-          }
-        }
-      }
-    ],
-    "Heavy Weapon": [{
-        "name": "ACP Trooper",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735115264/1D92758AC20C28AA48019DCD564E31D271B20A2C/",
-        "mini": {
-          "mesh": "http://cloud-3.steamusercontent.com/ugc/1021698068156270983/519A43ACE1F5461D51AA1BA81ADF4A5C37BEF9E4/",
-          "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021698068156271135/318D90BCDE4E3E362797A38823A21FF17FAF651E/"
-        },
-        "points": 30,
-        "restrictions": {
-          "include": {
-            "unit": ["Mercenary Assault Squad"]
-          }
-        }
-      },
-      {
-        "name": "Cycler Rifle Sniper",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638840781/F5E96AC72E6D27DDA4AAC1467261D01B33AAD476/",
-        "mini": {
-          "mesh": "http://cloud-3.steamusercontent.com/ugc/1021698068156464799/C000C8B3CF81A11687F6B39574ACE73A8FEF1A28/",
-          "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021698068156464974/774C639F2300D7816E654D8276585556DEAD6432/"
-        },
-        "points": 30,
-        "restrictions": {
-          "include": {
-            "unit": ["Infiltrators"]
-          }
-        }
-      },
-      {
-        "name": "Detonite Charge Saboteur",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638839094/D0D81BD4107CD9647D5C041676865BAA1CFF027D/",
-        "mini": {
-          "mesh": "http://cloud-3.steamusercontent.com/ugc/1021698068156470652/C2D7BF3AADDECA01B8C5442DF6419D2F1FF2389B/",
-          "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021698068156470835/5E87EEBFF97975FF1A8985808C26B645EC53CAAC/"
-        },
-        "points": 28,
-        "restrictions": {
-          "include": {
-            "unit": ["Infiltrators"]
-          }
-        }
-      },
-      {
-        "name": "Concussion Rifle Trooper",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735114688/7F06A4AA27BBEFE8D08FF392CB8E7E8FC4083F6B/",
-        "mini": {
-          "mesh": "http://cloud-3.steamusercontent.com/ugc/1021698068156271785/233649FA9B56D451B97E71E706C777AD529B0810/",
-          "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021698068156271944/671F0E7483F7DA3D92D551E5042698EE06E510EB/"
-        },
-        "points": 30,
-        "restrictions": {
-          "include": {
-            "unit": ["Mercenary Assault Squad"]
-          }
-        }
-      },
-      {
-        "name": "Mercenary Assault Trooper",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735114176/44B42375B5C11B5BADA3029FC1BF45BBCE56575C/",
-        "mini": {
-          "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365878231/A04BECDA5804E0A38FF974528C70AB5AAAE4B715/",
-          "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365878394/8AD2A611C51D78184D8E4204A720C59EEC2C7755/"
-        },
-        "points": 18,
-        "restrictions": {
-          "include": {
-            "unit": ["Mercenary Assault Squad"]
-          }
-        }
-      }
-    ],
-    "Illicit": [{
-        "name": "Black Market Weapon Modifications",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735317485/24DDC0FD309F0F75C04559832E888C0ED6E52CB1/",
-        "points": 10,
-        "restrictions": {
-          "include": {
-            "type": ["Trooper"]
-          }
-        }
-      },
-      {
-        "name": "Glitterstim",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735317047/31F1D322D5E1C986DFB20E582590653A0B0CAF7F/",
-        "points": 5,
-        "restrictions": {
-          "include": {
-            "type": ["Trooper"]
-          }
-        }
-      },
-      {
-        "name": "Outer Rim Modifications",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735317893/3A2F6E60B2980B2608C4DA9B029E1C4B2F257560/",
-        "points": 10,
-        "restrictions": {
-          "include": {
-            "type": ["Droid Trooper", "Ground Vehicle", "Repulsor Vehicle"]
-          }
-        }
-      },
-      {
-        "name": "Personal Shield",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735181899/208D960208099BDF4461E2E09204169FF959FC52/",
-        "points": 8,
-        "restrictions": {
-          "include": {
-            "type": ["Trooper"]
-          }
-        }
-      },
-      {
-        "name": "Piercing Dart",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640417521/8FE5D7BA77D3E25ED3FB812B261AD3E3DD88EF10/",
-        "points": 6,
-        "restrictions": {
-          "include": {
-            "type": ["Mandalorian Trooper"]
-          }
-        }
-      },
-      {
-        "name": "Poison Dart",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640416768/843BE27BBC497AC58846ED0295BFC661E391BEDF/",
-        "points": 6,
-        "restrictions": {
-          "include": {
-            "type": ["Mandalorian Trooper"]
-          }
-        }
-      },
-      {
-        "name": "Self-Destruct Sequencing",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735318468/FF453A532280D1626623E10338ED5D288FA47B6E/",
-        "points": 5,
-        "restrictions": {
-          "include": {
-            "type": ["Droid Trooper", "Ground Vehicle", "Repulsor Vehicle"]
-          }
-        }
-      },
-      {
-        "name": "Stimpack",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735182732/C3B2C7FA3F05FC71D5C3ED089A8037A92171A103/",
-        "points": 5,
-        "restrictions": {
-          "include": {
-            "type": ["Trooper"]
-          }
-        }
-      },
-      {
-        "name": "Wrist Mounted Disintegrator",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640426484/CAA3EE923F691577E92958B5BAA38AB8221EDF61/",
-        "points": 10,
-        "restrictions": {
-          "include": {
-            "type": ["Mandalorian Trooper"]
-          }
-        }
-      },
-      {
-        "name": "Wrist Mounted Disruptor",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640427887/A13950D10FE563732533E3C91584E465D47F05F5/",
-        "points": 3,
-        "restrictions": {
-          "include": {
-            "type": ["Mandalorian Trooper"]
-          }
-        }
-      },
-      {
-        "name": "Wrist Mounted Slugthrower",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640413367/65913371690794787832DA2D5D970C42E484A5E0/",
-        "points": 6,
-        "restrictions": {
-          "include": {
-            "type": ["Mandalorian Trooper"]
-          }
-        }
-      }
-    ],
-    "Ordnance": [{
-      "name": "Carbonite Missiles",
-      "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638969743/EEA573B6F2E054B13E3A220888FFDC03906CA74C/",
-      "points": 10,
-      "restrictions": {
-        "include": {
-          "unit": ["Missile Attack Launcher"]
-        }
-      }
-    }],
-    "Personnel": [{
-        "name": "Extra Grenadier",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735129141/9805A2223DB725582E8105414121E4505895193F/",
-        "mini": {
-          "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365824294/5F43B720E0198A078E25BA472E7DDBCA8F51CBEC/",
-          "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365824481/27693FC709ADF50440623C6347A11151608D5E2F/"
-        },
-        "points": 11,
-        "restrictions": {
-          "include": {
-            "unit": ["Grenadier Squad"]
-          }
-        }
-      },
-      {
-        "name": "Forward Observer",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735128538/8947A618AAA4A4A0D92B3C7C12E651A494FDEDA7/",
-        "mini": {
-          "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696984835690936/3C42012D036A5F420DD9ADD158E66901AB4A5671/",
-          "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696984835691208/1C0C86466F3298E9663CEE3961B7F3F6DBED4DD9/"
-        },
-        "points": 17,
-        "restrictions": {
-          "include": {
-            "unit": ["Grenadier Squad"]
-          }
-        }
-      }
-    ],
-    "Pilot": [{
-        "name": "Veteran Mechanic",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638970650/AE724920A75FF2F1D840AC3DE707166D67EA0323/",
-        "points": 8,
-        "restrictions": {
-          "include": {
-            "unit": ["Missile Attack Launcher"]
-          }
-        }
-      },
-      {
-        "name": "Veteran Tank Pilot",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556639094597/6678DD776757AAFAFA216FB7538DA7BC35147757/",
-        "points": 5,
-        "restrictions": {
-          "include": {
-            "unit": ["Canderous Class Assault Tank"]
-          }
-        }
-      },
-      {
-        "name": "Pirate Speed Freak",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556639095451/373D5F83FB4E8F4D3223A3CAD3E6A8E661FAAC2F/",
-        "points": 8,
-        "restrictions": {
-          "include": {
-            "unit": ["Canderous Class Assault Tank"]
-          }
-        }
-      },
-      {
-        "name": "Pirate Hotshot",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556639096066/A06D6ABDA4E9B1B1F2A63187D6B24F13D5D283A5/",
-        "points": 15,
-        "restrictions": {
-          "include": {
-            "unit": ["Canderous Class Assault Tank"]
-          }
-        }
-      }
-    ],
-    "Training": [{
-        "name": "Advanced Assault Training",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640415256/3E0DA25CB2B44F7093E46DADA1965C0DBD3C703A/",
-        "points": 5,
-        "restrictions": {
-          "include": {
-            "type": ["Mandalorian Trooper"]
-          }
-        }
-      },
-      {
-        "name": "Blend In",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735182379/DD072454059CA2BB5CB206848D0BCBF656F494F9/",
-        "points": 10,
-        "restrictions": {
-          "include": {
-            "faction": ["Scum"],
-            "rank": ["Commander", "Operative", "Special Forces"]
-          }
-        }
-      },
-      {
-        "name": "Faithful Companion",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735164302/4C5E96A3397E6BD2F8C07A61AA9B25FDC0D8C031/",
-        "points": 8,
-        "restrictions": {
-          "include": {
-            "unit": ["Beast Master", "Silri"]
-          }
-        }
-      },
-      {
-        "name": "Rising Phoenix Training",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640409422/F8AF40A8E8F4C87CA364A0ADADA7281F20F8F0D7/",
-        "points": 10,
-        "restrictions": {
-          "include": {
-            "type": ["Mandalorian Trooper"]
-          }
-        }
-      }
-    ]
   }
-}
+  
