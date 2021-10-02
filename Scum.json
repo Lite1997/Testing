@@ -240,6 +240,36 @@
           ]
         }],
         "Special Forces": [{
+            "name": "Nite Owls",
+            "title": "Bo-Katan's Elite",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738640736216918/59B584E476FCEAE304E4E3152B4BF12843AE9214/",
+            "size": "small",
+            "type": "Mandalorian Trooper",
+            "points": 60,
+            "speed": 3,
+            "upgrades": {
+              "Training": 1,
+              "Illicit": 1,
+              "Comms": 1,
+              "Gear": 1,
+              "Armament": 1,
+              "Grenades": 1
+            },
+            "minis": [{
+                "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696515357880094/FFFBDA79DE3B6192926EFCDFC257708C2A360562/",
+                "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696515357880292/78883B5B08CCDC0B7BC4EF36D45DAB06E9057FEB/"
+              },
+              {
+                "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696515357881561/B365369415AE0FB6A96E69817D76D9BAD1366038/",
+                "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696515357880292/78883B5B08CCDC0B7BC4EF36D45DAB06E9057FEB/"
+              },
+              {
+                "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696515357880886/06542D3BD6F03DC43D9E675680F86F2964B210F9/",
+                "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696515357880292/78883B5B08CCDC0B7BC4EF36D45DAB06E9057FEB/"
+              }
+            ]
+          },
+            {
             "name": "Mercenary Assault Squad",
             "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735112958/CA567516B908134719A9891C1855E81C88E39E7E/",
             "size": "small",
@@ -511,7 +541,7 @@
           }
         }
       ],
-      "Grenade": [{
+      "Grenades": [{
         "name": "Cluster Grenades",
         "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640427155/BAB17778B9558A117B7672B361169E1429B8FFBD/",
         "points": 5,
