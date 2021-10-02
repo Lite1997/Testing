@@ -2,41 +2,6 @@
   "units": {
     "Scum": {
       "Commander": [{
-          "name": "Tyber Zann",
-          "title": "Cold, Methodical, and Ruthless",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735070640/74612E44D0AF4F505937EE2E0DAF21C08EB4E15B/",
-          "size": "small",
-          "type": "Trooper",
-          "points": 140,
-          "speed": 2,
-          "upgrades": {
-            "Command": 1,
-            "Training": 1,
-            "Illicit": 1,
-            "Gear": 1
-          },
-          "minis": [{
-            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365775807/337D2A5009DD4A91F0A469B418D4C77867FDF52D/",
-            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365776115/8606DE28865E723D2343D17F890A99959E25AC8F/"
-          }],
-          "commands": [{
-              "name": "Orbital Bombardment",
-              "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735071380/B7CEA3F14638418D63BEFF3F7A611F5078D31667/",
-              "pip": 1
-            },
-            {
-              "name": "Corruption is My Weapon",
-              "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735071871/7524B10AD4DB25DAA1E5F5F0275A58DE9C3EC666/",
-              "pip": 2
-            },
-            {
-              "name": "Everyone Has a Price",
-              "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735072378/3A407CC85B615E03763D5F22E7116CA3FB217F0B/",
-              "pip": 3
-            }
-          ]
-        },
-        {
           "name": "Defiler",
           "title": "Under Cover Agent",
           "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735208736/794BBDD282201AA4D82C0B728D90073E6CAF423C/",
@@ -67,6 +32,41 @@
             {
               "name": "I Stand In the Shadow",
               "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735210753/1BF727CB55BFAB8151A9F9A368C91C6B76248636/",
+              "pip": 3
+            }
+          ]
+        },
+        {
+          "name": "Tyber Zann",
+          "title": "Cold, Methodical, and Ruthless",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735070640/74612E44D0AF4F505937EE2E0DAF21C08EB4E15B/",
+          "size": "small",
+          "type": "Trooper",
+          "points": 140,
+          "speed": 2,
+          "upgrades": {
+            "Command": 1,
+            "Training": 1,
+            "Illicit": 1,
+            "Gear": 1
+          },
+          "minis": [{
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365775807/337D2A5009DD4A91F0A469B418D4C77867FDF52D/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365776115/8606DE28865E723D2343D17F890A99959E25AC8F/"
+          }],
+          "commands": [{
+              "name": "Orbital Bombardment",
+              "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735071380/B7CEA3F14638418D63BEFF3F7A611F5078D31667/",
+              "pip": 1
+            },
+            {
+              "name": "Corruption is My Weapon",
+              "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735071871/7524B10AD4DB25DAA1E5F5F0275A58DE9C3EC666/",
+              "pip": 2
+            },
+            {
+              "name": "Everyone Has a Price",
+              "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735072378/3A407CC85B615E03763D5F22E7116CA3FB217F0B/",
               "pip": 3
             }
           ]
