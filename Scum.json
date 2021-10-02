@@ -240,6 +240,35 @@
           ]
         }],
         "Special Forces": [{
+            "name": "Death Watch Fireteam",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738640736281138/4153C964147552CEAC2E3E23A51ED5358BC5C424/",
+            "size": "small",
+            "type": "Mandalorian Trooper",
+            "points": 54,
+            "speed": 3,
+            "upgrades": {
+                "Heavy Weapon": 1,
+              "Training": 1,
+              "Illicit": 1,
+              "Comms": 1,
+              "Gear": 1,
+              "Armament": 1
+            },
+            "minis": [{
+                "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696350886427483/34A3605CA2B2D8280D40991583D41D7D1B3F0E31/",
+                "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696350886427771/60D6CA1D97D822A2222E4FAF614931265B7B0AF2/"
+              },
+              {
+                "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696350886435784/9A83A99579A78DF53A23E3FFB79C07798E4F3C5C/",
+                "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696350886427771/60D6CA1D97D822A2222E4FAF614931265B7B0AF2/"
+              },
+              {
+                "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696350886429750/5D62ADB1200B1AD16A0349AF87E757F40E720115/",
+                "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696350886427771/60D6CA1D97D822A2222E4FAF614931265B7B0AF2/"
+              }
+            ]
+          },
+            {
             "name": "Nite Owls",
             "title": "Bo-Katan's Elite",
             "image": "http://cloud-3.steamusercontent.com/ugc/1638738640736216918/59B584E476FCEAE304E4E3152B4BF12843AE9214/",
@@ -617,6 +646,20 @@
           }
         },
         {
+            "name": "Concussion Rifle Trooper",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735114688/7F06A4AA27BBEFE8D08FF392CB8E7E8FC4083F6B/",
+            "mini": {
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021698068156271785/233649FA9B56D451B97E71E706C777AD529B0810/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021698068156271944/671F0E7483F7DA3D92D551E5042698EE06E510EB/"
+            },
+            "points": 30,
+            "restrictions": {
+              "include": {
+                "unit": ["Mercenary Assault Squad"]
+              }
+            }
+          },
+        {
           "name": "Cycler Rifle Sniper",
           "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638840781/F5E96AC72E6D27DDA4AAC1467261D01B33AAD476/",
           "mini": {
@@ -630,6 +673,48 @@
             }
           }
         },
+        {
+            "name": "Death Watch Duelist",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738640736282375/F5A9EF30A976727C91F3C880E7B603D827086B6F/",
+            "mini": {
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696515357841451/50164A1C84E6D119BC45BDD31C8209ED7D9A0F29/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696515357841757/1DC29C81D9DFCB2FB7D8A3B2EA2F2ABD3F416396/"
+            },
+            "points": 25,
+            "restrictions": {
+              "include": {
+                "unit": ["Death Watch Fireteam"]
+              }
+            }
+          },
+          {
+            "name": "Death Watch Fireteam Trooper",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738640736282915/B810832E8ACDF94B56D90DE60C159FE0A5FF77D2/",
+            "mini": {
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696515357844380/B08FE1606E634293EBE16FFD9541B5F7C801E2CF/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696350886427771/60D6CA1D97D822A2222E4FAF614931265B7B0AF2/"
+            },
+            "points": 18,
+            "restrictions": {
+              "include": {
+                "unit": ["Death Watch Fireteam"]
+              }
+            }
+          },
+          {
+            "name": "Death Watch Marksman",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738640736284088/EF0FB8D721EE6297963990219E9FC01B1A0AB940/",
+            "mini": {
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696350886436522/D0CBBE1EB66E7A3FEECA1A6DF0FEF6F352287404/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696350886436834/E27641C0A96264724D710A4B3F912F543CF9413E/"
+            },
+            "points": 34,
+            "restrictions": {
+              "include": {
+                "unit": ["Death Watch Fireteam"]
+              }
+            }
+          },
         {
           "name": "Detonite Charge Saboteur",
           "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638839094/D0D81BD4107CD9647D5C041676865BAA1CFF027D/",
@@ -645,19 +730,19 @@
           }
         },
         {
-          "name": "Concussion Rifle Trooper",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735114688/7F06A4AA27BBEFE8D08FF392CB8E7E8FC4083F6B/",
-          "mini": {
-            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021698068156271785/233649FA9B56D451B97E71E706C777AD529B0810/",
-            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021698068156271944/671F0E7483F7DA3D92D551E5042698EE06E510EB/"
-          },
-          "points": 30,
-          "restrictions": {
-            "include": {
-              "unit": ["Mercenary Assault Squad"]
+            "name": "Heavy Blaster Cannon Gunner",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738640736281792/283829A6193016BD5AF9264D1E90D59D07D7125A/",
+            "mini": {
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696515357847983/815BAE46D59A5AE4EE98449FF47A9F4E1F5FF4F7/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696515357848221/4A5E3289B5C619501C33A169426DCEEE5F31C670/"
+            },
+            "points": 34,
+            "restrictions": {
+              "include": {
+                "unit": ["Death Watch Fireteam"]
+              }
             }
-          }
-        },
+          },
         {
           "name": "Mercenary Assault Trooper",
           "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735114176/44B42375B5C11B5BADA3029FC1BF45BBCE56575C/",
