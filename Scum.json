@@ -480,6 +480,32 @@
                 "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696515357880292/78883B5B08CCDC0B7BC4EF36D45DAB06E9057FEB/"
               }
             ]
+          },
+          {
+            "name": "Gamorrean Gaurds",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741407333/B5A53DE0F8D6ECC08CCD913669E3AB7D846F9320/",
+            "size": "small",
+            "type": "Trooper",
+            "points": 75,
+            "speed": 2,
+            "upgrades": {
+              "Heavy Weapon": 1,
+              "Training": 1,
+              "Illicit": 1,
+            },
+            "minis": [{
+                "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697407431269414/974FE237CC3CE17AEC2C321DBB69DE340A0D962F/",
+                "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697407431269590/C7A08ECB6A962EC390A208C771B6A8AF513AE685/"
+              },
+              {
+                "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697407431271048/84FBE9C70610660263F4FE0424E1C02C401A945B/",
+                "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697407431270422/909F25E16D76BF99AE8122963CEE8BAD7ECFD15A/"
+              },
+              {
+                "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697407431270243/80653030A9E58BF9637ED105E4F63598082B2D9E/",
+                "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697407431270422/909F25E16D76BF99AE8122963CEE8BAD7ECFD15A/"
+              }
+            ]
           }
         ],
         "Support": [{
@@ -797,6 +823,20 @@
           "restrictions": {
             "include": {
               "unit": ["Mercenary Assault Squad"]
+            }
+          }
+        },
+        {
+          "name": "BD-1 Vibroaxe Guard",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741407943/466AB5745404A77F5156D5AF55160CCB52545A50/",
+          "mini": {
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697407431287477/62E1591E99BD747C7C130C3D4B5F70CA6FFA34B2/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697407431272263/BBD5D7D12BC2B61E0C88AA50721BDD40AF766FF7/"
+          },
+          "points": 25,
+          "restrictions": {
+            "include": {
+              "unit": ["Gamorrean Gaurds"]
             }
           }
         },
@@ -1254,6 +1294,11 @@
               "rank": ["Commander", "Operative", "Special Forces"]
             }
           }
+        },
+        {
+          "name": "Brutality",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741408425/6FED2B70FD2FCEFC6A1A8249888003F3C9798118/",
+          "points": 10
         },
         {
           "name": "Faithful Companion",
