@@ -665,7 +665,26 @@
             "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365798378/BE8A6530AC8273FFE4549147A2F83C7A77BA5597/",
             "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365798566/72991BC6227C745C3157A2328EEFDF4F1671924D/"
           }]
-        }],
+        },
+        {
+        "name": "EWHB-12 Heavy Blaster team",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640742525705/7188974BC1594CD7D0B2D6775629F3933FE40E62/",
+          "displayName": "EWHB-12 Team",
+          "size": "medium",
+          "type": "Emplacement Trooper",
+          "points": 60,
+          "speed": 1,
+          "upgrades": {
+            "Comms": 1,
+            "Illicit": 1,
+            "Generator": 1
+          },
+          "minis": [{
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697756243818494/7211F52034FC36725841F968E5F2B991F8C10274/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697756243792095/065CF347E346B773F8F93F81B0048E6A6A67A2C1/"
+          }]
+        }
+      ],
         "Heavy": [{
             "name": "Cuddles",
             "title": "Ferocious One",
@@ -873,6 +892,35 @@
           }
         }
       }],
+      "Counterpart": [{
+        "name": "Salacious B. Crumb",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741310541/C8ADFE085EC634C8766C303BD1F89D230BEADEBE/",
+        "points": 10,
+        "mini": {
+          "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696984838966754/DCEED639BB3AA1D36A2AF82B26708EF4007A3583/",
+          "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696984838966978/51C97B6161C17AE3229372F0C26331EAD0D44200/"
+        },
+        "restrictions": {
+          "include": {
+            "unit": ["Jabba The Hutt"]
+          }
+        }
+      },
+      {
+      "name": "Vornskr's",
+      "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741832560/CFA25E88275C65CC80ACE518A3DBDB2C4235E061/",
+      "points": 15,
+      "mini": {
+        "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697620252875766/48FF7F717DEA00FCE1E830FD4FA888494433370A/",
+        "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697620252875970/2006E4E0DA5EA0DEEEB1B3982D975944B8F9DC7B/"
+      },
+      "restrictions": {
+        "include": {
+          "unit": ["Beast Master"]
+        }
+      }
+    }
+    ],
       "Flaw": [
         {
           "name": "I'll Bet You Have",
@@ -920,34 +968,17 @@
           }
         }
       ],
-      "Counterpart": [{
-          "name": "Salacious B. Crumb",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741310541/C8ADFE085EC634C8766C303BD1F89D230BEADEBE/",
-          "points": 10,
-          "mini": {
-            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696984838966754/DCEED639BB3AA1D36A2AF82B26708EF4007A3583/",
-            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696984838966978/51C97B6161C17AE3229372F0C26331EAD0D44200/"
-          },
+      "Generator": [
+        {
+          "name": "Targeted Generator",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640742526797/6A85F0CB99FE4DB7DCFD7DA3EDF1E04B4D1A56DC/",
+          "points": 7,
           "restrictions": {
             "include": {
-              "unit": ["Jabba The Hutt"]
+              "unit": ["EWHB-12 Heavy Blaster team"]
             }
           }
-        },
-        {
-        "name": "Vornskr's",
-        "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741832560/CFA25E88275C65CC80ACE518A3DBDB2C4235E061/",
-        "points": 15,
-        "mini": {
-          "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697620252875766/48FF7F717DEA00FCE1E830FD4FA888494433370A/",
-          "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697620252875970/2006E4E0DA5EA0DEEEB1B3982D975944B8F9DC7B/"
-        },
-        "restrictions": {
-          "include": {
-            "unit": ["Beast Master"]
-          }
         }
-      }
       ],
       "Grenades": [{
         "name": "Cluster Grenades",
@@ -1290,6 +1321,16 @@
           }
         },
         {
+        "name": "Black sun Assault mod",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738640742527952/354B544F4AB6ED4EA8FE90895DA7E62CC6D9DED9/",
+        "points": 5,
+        "restrictions": {
+          "include": {
+            "unit": ["EWHB-12 Heavy Blaster team"]
+          }
+        }
+      },
+        {
         "name": "Ewok Bomb",
           "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741833695/4345404F4A2F9E97DC140024285F113A8DDEAAE9/",
           "points": 22,
@@ -1356,6 +1397,16 @@
           "restrictions": {
             "include": {
               "type": ["Mandalorian Trooper"]
+            }
+          }
+        },
+        {
+          "name": "Pirate Retrofit",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640742527540/AA9771542B3B0F58F1D813AE833F6E230163C361/",
+          "points": 5,
+          "restrictions": {
+            "include": {
+              "unit": ["EWHB-12 Heavy Blaster team"]
             }
           }
         },
