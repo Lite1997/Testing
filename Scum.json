@@ -715,8 +715,8 @@
           "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741310541/C8ADFE085EC634C8766C303BD1F89D230BEADEBE/",
           "points": 10,
           "mini": {
-            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696984838966754/DCEED639BB3AA1D36A2AF82B26708EF4007A3583/",
-            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696984838966978/51C97B6161C17AE3229372F0C26331EAD0D44200/"
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696984838966754/DCEED639BB3AA1D36A2AF82B26708EF4007A3583/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696984838966978/51C97B6161C17AE3229372F0C26331EAD0D44200/"
           },
           "restrictions": {
             "include": {
