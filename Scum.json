@@ -277,6 +277,41 @@
               "pip": 3
             }
           ]
+        },
+        {
+          "name": "Greedo",
+          "title": "Mercenary of Misfortune",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741745161/DE21A067535ADD00F083F96CE00AEF706CDBC1B3/",
+          "size": "small",
+          "type": "Trooper",
+          "points": 60,
+          "speed": 2,
+          "upgrades": {
+            "Training": 2,
+            "Gear": 1,
+            "Grenades": 1
+          },
+          "minis": [{
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697128192156760/0799D47F8ABA442104B92441C2EE558246DD447B/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697128192156907/44D809B717035663BCC53BBF8B6C34E47F27D953/"
+          }],
+          "commands": [{
+              "name": "Maclunky!",
+              "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741745870/4D9A87A50635EFDD25A2E01B381D20FC3B23D0E7/",
+              "pip": 1
+            },
+            {
+              "name": "Oonta Goota?",
+              "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741746363/52B7999E4C27DFA029632DF034C633BD94B6ECE3/",
+              "pip": 2
+            },
+            {
+              "name": "E Chu Ta",
+              "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741747117/E0DD4D0E9489424A42EF020B57AFCB2E34CC3935/",
+              "pip": 3
+            }
+          ],
+          "required": ["I'll Bet You Have"]
         }
         ],
         "Corps": [{
@@ -695,6 +730,12 @@
           }
         }
       }],
+      "Flaw": [
+        {
+          "name": "I'll Bet You Have",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741747564/7E279CBA3100D1D5A3E4B5D9EBD362D57373ABE8/",
+          "points": 0
+        }],
       "Gear": [{
           "name": "Electro Grappling Line",
           "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640414601/68D77CCDC40F2F1F103F1AF7568727FA6F9E8CE9/",
