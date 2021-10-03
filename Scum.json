@@ -470,6 +470,59 @@
             ]
           },
           {
+          "name": "IG-86 Sentinal Droids",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738640742381727/F1DAD4DF93EE4BE12C4E2E2BC1D7BADF29BAD32A/",
+            "size": "small",
+            "type": "Trooper",
+            "points": 80,
+            "speed": 2,
+            "upgrades": {
+              "Heavy Weapon": 1,
+              "Training": 1,
+              "Illicit": 1,
+              "Gear": 1,
+              "Grenades": 1
+            },
+            "minis": [{
+                "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697407432785617/C21E190F258AC17A01C5D096C890DFA3B988759D/",
+                "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697407432785832/186A72B65075EEA56ED2C3D1DC80718E987884B5/"
+              },
+              {
+                "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697407433051929/749E23C3D0FD9CE738CEA98802F52CA8B64ADABE/",
+                "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697407432785832/186A72B65075EEA56ED2C3D1DC80718E987884B5/"
+              },
+              {
+                "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697407433051436/F1EA8C6D3CCB8278F7775C7AB78AD996DFC24291/",
+                "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697407432785832/186A72B65075EEA56ED2C3D1DC80718E987884B5/"
+              },
+              {
+                "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697407433050963/ED218EC8188C166AFEE1E1DE86351BE786E764D7/",
+                "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697407432785832/186A72B65075EEA56ED2C3D1DC80718E987884B5/"
+              }
+            ]
+          },
+          {
+            "name": "IG-86 Sentinal Droids",
+            "title": "Strike Team",
+            "heavyWeaponTeam": true,
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738640742381186/83833409E9638CCAE4D3E135DD7DE7C3F50BF6B2/",
+            "size": "small",
+            "type": "Trooper",
+            "points": 25,
+            "speed": 2,
+            "upgrades": {
+              "Heavy Weapon": 1,
+              "Training": 1,
+              "Illicit": 1,
+              "Comms": 1,
+              "Gear": 1
+            },
+            "minis": [{
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697407432785617/C21E190F258AC17A01C5D096C890DFA3B988759D/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697407432785832/186A72B65075EEA56ED2C3D1DC80718E987884B5/"
+            }]
+          },
+          {
           "name": "Infiltrators",
           "title": "Strike Team",
           "heavyWeaponTeam": true,
@@ -969,6 +1022,20 @@
           }
         },
         {
+          "name": "Blaster Lance Droid",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640742382205/FD43E6FF2AEF649B5A4A59B02630F602BEAE2C42/",
+          "mini": {
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697407432789217/7FA6CC4082ED2BA4F96DB4A6A32DC268B55A924A/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697407432781824/644CE23A0B74C79BF20698A408FCF00D319EA7BE/"
+          },
+          "points": 30,
+          "restrictions": {
+            "include": {
+              "unit": ["IG-86 Sentinal Droids"]
+            }
+          }
+        },
+        {
             "name": "Concussion Rifle Trooper",
             "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735114688/7F06A4AA27BBEFE8D08FF392CB8E7E8FC4083F6B/",
             "mini": {
@@ -1092,6 +1159,34 @@
           "restrictions": {
             "include": {
               "unit": ["Hutt Cartel Troopers"]
+            }
+          }
+        },
+        {
+          "name": "IQA-11 Sniper Droid",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640742382638/9E6E5FD638CB2D2304CD6621F66CA7E1529785FC/",
+          "mini": {
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697407432785196/AFC423350DB19E06E25D2B7B67DF95CA3323FBEF/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697407432781824/644CE23A0B74C79BF20698A408FCF00D319EA7BE/"
+          },
+          "points": 32,
+          "restrictions": {
+            "include": {
+              "unit": ["IG-86 Sentinal Droids"]
+            }
+          }
+        },
+        {
+          "name": "Kronos-327",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640742383051/E35635E0213C5BF6D3DECFF3DEBAEB53385737AE/",
+          "mini": {
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697407432807943/6854E55A0F61C5DE97189B6CAC90202E6BC1F622/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697407432805568/E1F93A35700D25A3C33BA87AD4D64514795D6FDE/"
+          },
+          "points": 34,
+          "restrictions": {
+            "include": {
+              "unit": ["IG-86 Sentinal Droids"]
             }
           }
         },
