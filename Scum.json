@@ -279,6 +279,40 @@
           ]
         },
         {
+          "name": "Dengar",
+          "title": "Payback",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640743206950/10A169A5029EDFC4ACA82E73B8BA7D4777BB499D/",
+          "size": "small",
+          "type": "Trooper",
+          "points": 105,
+          "speed": 2,
+          "upgrades": {
+            "Training": 1,
+            "Illicit": 1,
+            "Gear": 2,
+          },
+          "minis": [{
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696737982050300/7F58F09A4EBE2B1D4036CA35ECD771FAC087027F/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696737982050497/14DBD099731E973681F538C811E89F52971C6258/"
+          }],
+          "commands": [{
+              "name": "Ello Darlin",
+              "image": "http://cloud-3.steamusercontent.com/ugc/1638738640743207736/AC879456E5C89349EDE04DC810B7437A49F9017B/",
+              "pip": 1
+            },
+            {
+              "name": "Thats Not a Knife",
+              "image": "http://cloud-3.steamusercontent.com/ugc/1638738640743208077/F604A72BAD8ADED41170B6134687C8792E272C0B/",
+              "pip": 2
+            },
+            {
+              "name": "Credits are Calling my Name",
+              "image": "http://cloud-3.steamusercontent.com/ugc/1638738640743208459/015271D4636D4659598040A7A33AABA2A7373863/",
+              "pip": 3
+            }
+          ]
+        },
+        {
           "name": "Greedo",
           "title": "Mercenary of Misfortune",
           "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741745161/DE21A067535ADD00F083F96CE00AEF706CDBC1B3/",
