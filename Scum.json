@@ -815,7 +815,7 @@
         "name": "Vornskr's",
         "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741832560/CFA25E88275C65CC80ACE518A3DBDB2C4235E061/",
         "points": 15,
-        "mini": [{
+        "minis": [{
           "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697620252875766/48FF7F717DEA00FCE1E830FD4FA888494433370A/",
           "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697620252875970/2006E4E0DA5EA0DEEEB1B3982D975944B8F9DC7B/"
         },
@@ -1101,6 +1101,20 @@
           }
         },
         {
+        "name": "Ewok Bomb",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741833695/4345404F4A2F9E97DC140024285F113A8DDEAAE9/",
+          "mini": {
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696827920720888/50E58237E5F8FBC1D97E2422B8C9E9F8492CF31C/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696827920721151/5C05FDF683A81D7FF5286A2DD0CEA00CA0609127/"
+          },
+          "points": 22,
+          "restrictions": {
+            "include": {
+              "unit": ["Beast Master"]
+            }
+          }
+        },
+        {
           "name": "Glitterstim",
           "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735317047/31F1D322D5E1C986DFB20E582590653A0B0CAF7F/",
           "points": 5,
@@ -1171,6 +1185,16 @@
           }
         },
         {
+          "name": "Rancor Tamer",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741834052/EE3F163A5E5986958BCE4A45AD91F861EB85459F/",
+          "points": 10,
+          "restrictions": {
+            "include": {
+              "unit": ["Beast Master"]
+            }
+          }
+        },
+        {
           "name": "Reputation of the Hutts",
           "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741312392/906B601379C476DB20B6997F64A1B29916A421DB/",
           "points": 7,
@@ -1227,6 +1251,16 @@
           "restrictions": {
             "include": {
               "type": ["Mandalorian Trooper"]
+            }
+          }
+        },
+        {
+          "name": "Ysalamiri cage",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741834581/FDBF31BD0BD3997D1415E1409F8C4A82744019D9/",
+          "points": 8,
+          "restrictions": {
+            "include": {
+              "unit": ["Beast Master"]
             }
           }
         }
