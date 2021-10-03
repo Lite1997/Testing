@@ -630,7 +630,7 @@
             {
               "name": "IG-86 Sentinel Droids",
               "title": "Strike Team",
-              "displayName": "IG-86 Sentinel Droids (Strike Team)",
+              "displayName": "Sentinel Droids (Strike Team)",
               "heavyWeaponTeam": true,
               "image": "http://cloud-3.steamusercontent.com/ugc/1638738640742381186/83833409E9638CCAE4D3E135DD7DE7C3F50BF6B2/",
               "size": "small",
@@ -715,10 +715,25 @@
               "mesh": "http://cloud-3.steamusercontent.com/ugc/1021698013227951332/BDA59EEE85EBD5AE628E38AC9B0C539D59DC9525/",
               "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021698013227951474/8641BEED6BF44F70975F6F27093477327361567C/"
             }]
-          }
-        ]
+          },
+      {
+        "name": "Rancor",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738640742458068/53A90269FBB599680D91DA51225BE59738A8C049/",
+        "size": "huge",
+        "type": "Creature Trooper",
+        "points": 155,
+        "speed": 1,
+        "upgrades": {
+          "Pilot": 1,
+          "Creature": 1
+        },
+        "minis": [{
+          "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696827920773360/FA78C7E63C77DD4A9CDF435A2DCE83BEE4235B82/",
+          "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696827920773489/CCC8F655681A6962AA133E4DB9D4EBD8B3D487AD/"
+        }]
       }
-    },
+    ]
+  },
     "upgrades": {
       "Armament": [{
           "name": "Amped up A-280's",
@@ -1531,6 +1546,16 @@
         }
       ],
       "Pilot": [{
+        "name": "Nightsister Rider",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640742458550/DA4B94232A6C585F9052738F990C70095E579256/",
+          "points": 30,
+          "restrictions": {
+            "include": {
+              "unit": ["Rancor"]
+            }
+          }
+        },
+        {
           "name": "Pirate Hotshot",
           "image": "http://cloud-3.steamusercontent.com/ugc/1638738556639096066/A06D6ABDA4E9B1B1F2A63187D6B24F13D5D283A5/",
           "points": 15,
@@ -1620,4 +1645,4 @@
       ]
     }
   }
-  
+}
