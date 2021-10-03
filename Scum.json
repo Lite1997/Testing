@@ -403,7 +403,40 @@
               "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697407436112951/28554A829163EDA67DDE90D1CF137C093FF8A9AC/"
             }
           ]
-        }],
+        },
+        {
+          "name": "Hired Guns",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741999970/AEA964040C9423D7CB3BBFE8E6127BFF6D9B4B16/",
+          "size": "small",
+          "type": "Trooper",
+          "points": 36,
+          "speed": 2,
+          "upgrades": {
+            "Heavy Weapon": 1,
+            "Personnel": 1,
+            "Illicit": 1,
+            "Armament": 1,
+            "Grenades": 1
+          },
+          "minis": [{
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697231138162716/6618383926180465FB60EC9786E27A680C85BFC9/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697231138162922/C28DD0F623633DABFC9748FFE85A4AFA8D6010DE/"
+            },
+            {
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697231138162195/FB52D7D4C013778E22F5FB391B8506E10F7C8126/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697231138163807/FF1D50425F0F472D96EA277636EC08E98F969A4F/"
+            },
+            {
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697231138164240/210C9B6E98EBF1F2648A855CDFFEA405E75AFB82/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697231138164385/1460EF2F670C31A209FB8FD428800D727F310A9F/"
+            },
+            {
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697231138164936/04CD0F0BF910DC7E078F67D680411F0B948714C2/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697231138165334/AEF9F43EDE77B3E981B4EE3CFA26869D27B45CE0/"
+            }
+          ]
+        }
+      ],
         "Special Forces": [{
             "name": "Mercenary Assault Squad",
             "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735112958/CA567516B908134719A9891C1855E81C88E39E7E/",
@@ -547,8 +580,8 @@
             "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741833198/7B472992DE2786ABF9B11852AC28F1BBE3EFF7BF/",
             "size": "small",
             "type": "Trooper",
-            "points": 75,
-            "speed": 2,
+            "points": 20,
+            "speed": 1,
             "upgrades": {
               "Training": 1,
               "Comms": 1,
@@ -634,6 +667,16 @@
     },
     "upgrades": {
       "Armament": [{
+          "name": "Amped up A-280's",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640742002345/F99AB12D9FC7810EC0868DEA0DD3EEFBB15D686E/",
+          "points": 10,
+          "restrictions": {
+            "include": {
+              "unit": ["Hired Guns"]
+            }
+          }
+        },
+        {
           "name": "Defilers Blaster",
           "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735211533/50044D04BF35EAE0926C6A86936DC5A2DA95B0FD/",
           "points": 15,
@@ -695,6 +738,16 @@
           "restrictions": {
             "include": {
               "unit": ["Hondo Ohnaka"]
+            }
+          }
+        },
+        {
+          "name": "Illegally Modified E-11's",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640742002948/59F017866F7B7293C00FED3BA937D371B7E71C0A/",
+          "points": 10,
+          "restrictions": {
+            "include": {
+              "unit": ["Hired Guns"]
             }
           }
         },
@@ -1000,6 +1053,20 @@
           }
         },
         {
+          "name": "Gi/9 Cannon Hired Gun",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640742003564/A822E18141D6C082B017F73378B458F77F1685EF/",
+          "mini": {
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697231138166568/ED8EA2877D68277418CD413C22E7298490A0E88A/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697231138166740/961EBEFD298B956494AD8C52FAE4089A66129240/"
+          },
+          "points": 22,
+          "restrictions": {
+            "include": {
+              "unit": ["Hired Guns"]
+            }
+          }
+        },
+        {
             "name": "Heavy Blaster Cannon Gunner",
             "image": "http://cloud-3.steamusercontent.com/ugc/1638738640736281792/283829A6193016BD5AF9264D1E90D59D07D7125A/",
             "mini": {
@@ -1013,20 +1080,6 @@
               }
             }
           },
-        {
-          "name": "Mercenary Assault Trooper",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735114176/44B42375B5C11B5BADA3029FC1BF45BBCE56575C/",
-          "mini": {
-            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365878231/A04BECDA5804E0A38FF974528C70AB5AAAE4B715/",
-            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365878394/8AD2A611C51D78184D8E4204A720C59EEC2C7755/"
-          },
-          "points": 18,
-          "restrictions": {
-            "include": {
-              "unit": ["Mercenary Assault Squad"]
-            }
-          }
-        },
         {
           "name": "Hutt Cartel lieutenant",
           "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741194306/575F31C4867CAD2378D7FC8C57B97BE1BC7168C2/",
@@ -1043,6 +1096,20 @@
           }
         },
         {
+          "name": "Mercenary Assault Trooper",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735114176/44B42375B5C11B5BADA3029FC1BF45BBCE56575C/",
+          "mini": {
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696642365878231/A04BECDA5804E0A38FF974528C70AB5AAAE4B715/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365878394/8AD2A611C51D78184D8E4204A720C59EEC2C7755/"
+          },
+          "points": 18,
+          "restrictions": {
+            "include": {
+              "unit": ["Mercenary Assault Squad"]
+            }
+          }
+        },
+        {
           "name": "Modified E-5C Trooper",
           "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741194755/20A0EFE3551FB3F616037ECA2A6B085B32437E09/",
           "mini": {
@@ -1053,6 +1120,20 @@
           "restrictions": {
             "include": {
               "unit": ["Hutt Cartel Troopers"]
+            }
+          }
+        },
+        {
+          "name": "Ordnance launcher trooper",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640742001131/D2429556F4177E933131B739E7E038AA5546B250/",
+          "mini": {
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697231138167432/E485629FA5F7F44891F3DE6ECF6C0F8726AD1AE3/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697231138184470/30F29A14D05E0FF6A5153C51E7DFC770706D0119/"
+          },
+          "points": 27,
+          "restrictions": {
+            "include": {
+              "unit": ["Hired Guns"]
             }
           }
         },
@@ -1291,6 +1372,20 @@
           "restrictions": {
             "include": {
               "unit": ["Grenadier Squad"]
+            }
+          }
+        },
+        {
+          "name": "Hired Gun",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640742004196/087F0B1F89E7E79E87461EE5D2661B2585C52D4A/",
+          "mini": {
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697231138165871/C51E95633C934897949CFF29D8F9BCE471BF8FFA/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697231138166035/1BA43B16941621DB32750B2B3CDD35053996ABA9/"
+          },
+          "points": 9,
+          "restrictions": {
+            "include": {
+              "unit": ["Hired Guns"]
             }
           }
         },
