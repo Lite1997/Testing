@@ -541,6 +541,25 @@
                 "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697407431270422/909F25E16D76BF99AE8122963CEE8BAD7ECFD15A/"
               }
             ]
+          },
+          {
+            "name": "Beast Master",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741833198/7B472992DE2786ABF9B11852AC28F1BBE3EFF7BF/",
+            "size": "small",
+            "type": "Trooper",
+            "points": 75,
+            "speed": 2,
+            "upgrades": {
+              "Training": 1,
+              "Comms": 1,
+              "Illicit": 1,
+              "Gear": 1
+            },
+            "minis": [{
+                "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696827920718216/511748ACB39B86DB07F412D61B8BC0706C09A5C5/",
+                "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696827920718383/E67A519C2234A19CB159E833352376586A237A07/"
+              }
+            ]
           }
         ],
         "Support": [{
@@ -790,7 +809,26 @@
               "unit": ["Jabba The Hutt"]
             }
           }
+        },
+        {
+        "name": "Vornskr's",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741832560/CFA25E88275C65CC80ACE518A3DBDB2C4235E061/",
+        "points": 15,
+        "minis": [{
+          "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697620252875766/48FF7F717DEA00FCE1E830FD4FA888494433370A/",
+          "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697620252875970/2006E4E0DA5EA0DEEEB1B3982D975944B8F9DC7B/"
+        },
+        {
+          "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697620252876788/64F58E3A1D25B879DE3DA49660BDD1087832C102/",
+          "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697620252875970/2006E4E0DA5EA0DEEEB1B3982D975944B8F9DC7B/"
         }
+      ],
+        "restrictions": {
+          "include": {
+            "unit": ["Beast Master"]
+          }
+        }
+      }
       ],
       "Grenades": [{
         "name": "Cluster Grenades",
