@@ -750,6 +750,24 @@
           "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696827920773360/FA78C7E63C77DD4A9CDF435A2DCE83BEE4235B82/",
           "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696827920773489/CCC8F655681A6962AA133E4DB9D4EBD8B3D487AD/"
         }]
+      },
+      {
+        "name": "WLO-5 Battle Tank",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738640743059742/E6358D1656688B41E351113B72177D770264FB6B/",
+        "size": "epic",
+        "type": "Repulsor Vehicle",
+        "points": 125,
+        "speed": 2,
+        "upgrades": {
+          "Pilot": 1,
+          "Hardpoint": 1,
+          "Illicit": 1,
+          "Comms": 1
+        },
+        "minis": [{
+          "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697407436416564/7E56BA386FDC26CB14047F335B62C19995B4AA5E/",
+          "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697407436416842/1C5A975045A289BF43FBDC29DC3F2BD0ED7E1E0C/"
+        }]
       }
     ]
   }
@@ -1001,6 +1019,16 @@
           }
         },
         {
+        "name": "EWHB-12 Blaster Turret",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1638738640743064886/381FF3A3AED8050E5BDF1E3A4EC6B6DC2608B4EE/",
+        "points": 28,
+        "restrictions": {
+          "include": {
+            "unit": ["WLO-5 Battle Tank"]
+          }
+        }
+      },
+        {
           "name": "Expanded Launch Tubes",
           "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638975154/0F3C24800735B4BB8E0B156258FF032116C503F0/",
           "points": 4,
@@ -1027,6 +1055,16 @@
           "restrictions": {
             "include": {
               "unit": ["Droideka MKII"]
+            }
+          }
+        },
+        {
+          "name": "MS-1 Medium Laser Turret",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640743066443/2CF2905266AA4BDE3F40F755F800CB0E0A3392A6/",
+          "points": 20,
+          "restrictions": {
+            "include": {
+              "unit": ["WLO-5 Battle Tank"]
             }
           }
         },
@@ -1598,6 +1636,26 @@
         }
       ],
       "Pilot": [{
+        "name": "Excitable Pirate",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640743063563/DECCDDEB113FF6F7E278657E96EB142AEE9690B7/",
+          "points": 15,
+          "restrictions": {
+            "include": {
+              "unit": ["WLO-5 Battle Tank"]
+            }
+          }
+        },
+        {
+        "name": "Hutt Cartel Pilot",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640743063098/6FA89F40EA19F2FA891BD06D60B6DC06539C1212/",
+          "points": 15,
+          "restrictions": {
+            "include": {
+              "unit": ["WLO-5 Battle Tank"]
+            }
+          }
+        },
+        {
         "name": "Nightsister Rider",
           "image": "http://cloud-3.steamusercontent.com/ugc/1638738640742458550/DA4B94232A6C585F9052738F990C70095E579256/",
           "points": 30,
