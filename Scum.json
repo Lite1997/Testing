@@ -142,6 +142,40 @@
             ]
           },
           {
+            "name": "Jabba The Hutt",
+            "title": "Vile Gangster",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741311873/1C5E99B44B0F2BAB89FF0F00315D88DCAC991BBE/",
+            "size": "large",
+            "type": "Trooper",
+            "points": 180,
+            "speed": 1,
+            "upgrades": {
+                "Command": 2,
+                "Counterpart": 1,
+               "Illicit": 1
+            },
+            "minis": [{
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696984838965716/328A3D3A0AFDA83FC55E8DDCAF62845FFF80CF64/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696984838965864/2C27448D99B31E0730B60E10427A6009A6AEF1C7/"
+            }],
+            "commands": [{
+                "name": "Appetite for Violence",
+                "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741312832/9DD7CEC7F0A4BBEC81E368726BA5A07E4F81AD9D/",
+                "pip": 1
+              },
+              {
+                "name": "Sinister Belly Laugh",
+                "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741313391/27122DF6EB3315976464D7B481537EE5E1E58D94/",
+                "pip": 2
+              },
+              {
+                "name": "Big Shot Gangster",
+                "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741313883/86E8818123FD0C01DA7890E271BE897212D4733D/",
+                "pip": 3
+              }
+            ]
+          },
+          {
             "name": "Hondo Ohnaka",
             "title": "Self-Serving Pirate",
             "image": "http://cloud-3.steamusercontent.com/ugc/1638738640738473397/8A62072BB1AFA3D4BF14CC3BA56EB1C2F1614F46/",
@@ -676,6 +710,21 @@
           }
         }
       ],
+      "Counterpart": [{
+          "name": "Salacious B. Crumb",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741310541/C8ADFE085EC634C8766C303BD1F89D230BEADEBE/",
+          "points": 10,
+          "mini": {
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696984838966754/DCEED639BB3AA1D36A2AF82B26708EF4007A3583/",
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696984838966978/51C97B6161C17AE3229372F0C26331EAD0D44200/"
+          },
+          "restrictions": {
+            "include": {
+              "unit": ["Jabba The Hutt"]
+            }
+          }
+        }
+      ],
       "Grenades": [{
         "name": "Cluster Grenades",
         "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640427155/BAB17778B9558A117B7672B361169E1429B8FFBD/",
@@ -998,6 +1047,16 @@
           "restrictions": {
             "include": {
               "type": ["Mandalorian Trooper"]
+            }
+          }
+        },
+        {
+          "name": "Reputation of the Hutts",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741312392/906B601379C476DB20B6997F64A1B29916A421DB/",
+          "points": 7,
+          "restrictions": {
+            "include": {
+              "unit": ["Jabba The Hutt"]
             }
           }
         },
