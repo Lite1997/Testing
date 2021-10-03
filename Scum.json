@@ -713,6 +713,7 @@
       "Counterpart": [{
           "name": "Salacious B. Crumb",
           "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741310541/C8ADFE085EC634C8766C303BD1F89D230BEADEBE/",
+          "size": "small",
           "points": 10,
           "mini": {
             "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696984838966754/DCEED639BB3AA1D36A2AF82B26708EF4007A3583/",
