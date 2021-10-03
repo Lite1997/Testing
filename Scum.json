@@ -20,7 +20,7 @@
               "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696515362211007/246011C13B53F2A881968B8996802F50B33D075F/"
             }],
             "commands": [{
-                "name": " I Like Explosions",
+                "name": "I Like Explosions",
                 "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735209433/1B7DC25C849E9B7D2657E40E71FF198B8588381F/",
                 "pip": 1
               },
@@ -30,8 +30,42 @@
                 "pip": 2
               },
               {
-                "name": "I Stand In the Shadow",
+                "name": "I Stand In the Shadows",
                 "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735210753/1BF727CB55BFAB8151A9F9A368C91C6B76248636/",
+                "pip": 3
+              }
+            ]
+          },
+          {
+            "name": "Hondo Ohnaka",
+            "title": "Self-Serving Pirate",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738640738473397/8A62072BB1AFA3D4BF14CC3BA56EB1C2F1614F46/",
+            "size": "small",
+            "type": "Trooper",
+            "points": 90,
+            "speed": 2,
+            "upgrades": {
+              "Command": 1,
+              "Illicit": 3,
+              "Armament": 1
+            },
+            "minis": [{
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697601906780896/650CF3405CD4106C46B9CB7F0B8C3884B62CD278/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697601906781011/E61558EE4DCDF12D33E98940751D940381181C93/"
+            }],
+            "commands": [{
+                "name": "No Longer Profitable!",
+                "image": "http://cloud-3.steamusercontent.com/ugc/1638738640738477182/571BC50F3C1ABB05DAF75F3BE004DCEBD4C27DD7/",
+                "pip": 1
+              },
+              {
+                "name": "Drive a Big Tank",
+                "image": "http://cloud-3.steamusercontent.com/ugc/1638738640738476702/E723D8E97412E2B9E422741F4E2225D5B8A146C8/",
+                "pip": 2
+              },
+              {
+                "name": "Insolence! We are Pirates!",
+                "image": "http://cloud-3.steamusercontent.com/ugc/1638738640738475852/69D3EE2DF1CDA15E4BDC49F143CE2DD621B8553F/",
                 "pip": 3
               }
             ]
@@ -46,10 +80,10 @@
             "speed": 3,
             "upgrades": {
                 "Command": 1,
-              "Training": 2,
-              "Illicit": 1,
-              "Gear": 1,
-              "Armament": 2
+                "Training": 2,
+               "Illicit": 1,
+               "Gear": 1,
+               "Armament": 2
             },
             "minis": [{
               "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696350886396178/07FB37CA0A11552BEF96C3DCA10AF232C65AF7B6/",
@@ -268,37 +302,28 @@
               }
             ]
           },
-            {
-            "name": "Nite Owls",
-            "title": "Bo-Katan's Elite",
-            "image": "http://cloud-3.steamusercontent.com/ugc/1638738640736216918/59B584E476FCEAE304E4E3152B4BF12843AE9214/",
+          {
+            "name": "Infiltrators",
+            "title": "Strike Team",
+            "heavyWeaponTeam": true,
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638837280/E9F99045D6B7FA98055D860B700FB5402373070B/",
             "size": "small",
-            "type": "Mandalorian Trooper",
-            "points": 60,
-            "speed": 3,
+            "type": "Trooper",
+            "points": 22,
+            "speed": 2,
             "upgrades": {
+              "Heavy Weapon": 1,
               "Training": 1,
               "Illicit": 1,
               "Comms": 1,
-              "Gear": 1,
-              "Armament": 1,
-              "Grenades": 1
+              "Gear": 1
             },
             "minis": [{
-                "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696515357880094/FFFBDA79DE3B6192926EFCDFC257708C2A360562/",
-                "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696515357880292/78883B5B08CCDC0B7BC4EF36D45DAB06E9057FEB/"
-              },
-              {
-                "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696515357881561/B365369415AE0FB6A96E69817D76D9BAD1366038/",
-                "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696515357880292/78883B5B08CCDC0B7BC4EF36D45DAB06E9057FEB/"
-              },
-              {
-                "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696515357880886/06542D3BD6F03DC43D9E675680F86F2964B210F9/",
-                "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696515357880292/78883B5B08CCDC0B7BC4EF36D45DAB06E9057FEB/"
-              }
-            ]
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021698068156464007/651A73813208989A1D36777648388ABBF2F11376/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021698068156464181/1FABB24F11BA883FEB5A7CB16CB7EAE86CB50402/"
+            }]
           },
-            {
+          {
             "name": "Mercenary Assault Squad",
             "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735112958/CA567516B908134719A9891C1855E81C88E39E7E/",
             "size": "small",
@@ -330,26 +355,35 @@
               }
             ]
           },
-          {
-            "name": "Infiltrators",
-            "title": "Strike Team",
-            "heavyWeaponTeam": true,
-            "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638837280/E9F99045D6B7FA98055D860B700FB5402373070B/",
+            {
+            "name": "Nite Owls",
+            "title": "Bo-Katan's Elite",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738640736216918/59B584E476FCEAE304E4E3152B4BF12843AE9214/",
             "size": "small",
-            "type": "Trooper",
-            "points": 22,
-            "speed": 2,
+            "type": "Mandalorian Trooper",
+            "points": 60,
+            "speed": 3,
             "upgrades": {
-              "Heavy Weapon": 1,
               "Training": 1,
               "Illicit": 1,
               "Comms": 1,
-              "Gear": 1
+              "Gear": 1,
+              "Armament": 1,
+              "Grenades": 1
             },
             "minis": [{
-              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021698068156464007/651A73813208989A1D36777648388ABBF2F11376/",
-              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021698068156464181/1FABB24F11BA883FEB5A7CB16CB7EAE86CB50402/"
-            }]
+                "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696515357880094/FFFBDA79DE3B6192926EFCDFC257708C2A360562/",
+                "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696515357880292/78883B5B08CCDC0B7BC4EF36D45DAB06E9057FEB/"
+              },
+              {
+                "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696515357881561/B365369415AE0FB6A96E69817D76D9BAD1366038/",
+                "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696515357880292/78883B5B08CCDC0B7BC4EF36D45DAB06E9057FEB/"
+              },
+              {
+                "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696515357880886/06542D3BD6F03DC43D9E675680F86F2964B210F9/",
+                "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696515357880292/78883B5B08CCDC0B7BC4EF36D45DAB06E9057FEB/"
+              }
+            ]
           }
         ],
         "Support": [{
@@ -369,22 +403,6 @@
           }]
         }],
         "Heavy": [{
-            "name": "Cuddles",
-            "title": "Ferocious One",
-            "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735162413/20647BC13446FAA4A0951E6E9D5003D9904557E9/",
-            "size": "huge",
-            "type": "Creature Trooper",
-            "points": 135,
-            "speed": 1,
-            "upgrades": {
-              "Creature": 1
-            },
-            "minis": [{
-              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696984835661685/1668BEEE179A260B9988D3C60872160FF93CEE51/",
-              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696984835661821/7B52CEEC4169ACB4A32C0489D4A878BC72030DE2/"
-            }]
-          },
-          {
             "name": "Canderous Class Assault Tank",
             "image": "http://cloud-3.steamusercontent.com/ugc/1638738556639132725/E48531757B6B7D582D3D3AD313D790E21FAD2655/",
             "size": "epic",
@@ -398,6 +416,22 @@
             "minis": [{
               "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697231133144508/4BB9CD650D4795CEB6C81CBB95AB31DA7365F7EF/",
               "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697231133144655/86527E20BE4B11B688A7F14894775EBE347C475B/"
+            }]
+          },
+          {
+            "name": "Cuddles",
+            "title": "Ferocious One",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735162413/20647BC13446FAA4A0951E6E9D5003D9904557E9/",
+            "size": "huge",
+            "type": "Creature Trooper",
+            "points": 135,
+            "speed": 1,
+            "upgrades": {
+              "Creature": 1
+            },
+            "minis": [{
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696984835661685/1668BEEE179A260B9988D3C60872160FF93CEE51/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696984835661821/7B52CEEC4169ACB4A32C0489D4A878BC72030DE2/"
             }]
           },
           {
@@ -423,20 +457,6 @@
     },
     "upgrades": {
       "Armament": [{
-          "name": "DXR-6 Focused Fire Config",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735115917/9E0BA5F8013B1491D5EF74BED3C484BA0F3052AB/",
-          "flip": {
-            "name": "DXR-6 Power Shot Config",
-            "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735116297/419AF3D6925D7004CA92BE249969A1BFB42B9742/"
-          },
-          "points": 8,
-          "restrictions": {
-            "include": {
-              "unit": ["Mercenary Assault Squad"]
-            }
-          }
-        },
-        {
           "name": "Defilers Blaster",
           "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735211533/50044D04BF35EAE0926C6A86936DC5A2DA95B0FD/",
           "points": 15,
@@ -453,6 +473,20 @@
           "restrictions": {
             "include": {
               "unit": ["Defiler"]
+            }
+          }
+        },
+        {
+          "name": "DXR-6 Focused Fire Config",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735115917/9E0BA5F8013B1491D5EF74BED3C484BA0F3052AB/",
+          "flip": {
+            "name": "DXR-6 Power Shot Config",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735116297/419AF3D6925D7004CA92BE249969A1BFB42B9742/"
+          },
+          "points": 8,
+          "restrictions": {
+            "include": {
+              "unit": ["Mercenary Assault Squad"]
             }
           }
         },
@@ -474,6 +508,16 @@
           "restrictions": {
             "include": {
               "Unit": ["Bo-Katan Kryze"]
+            }
+          }
+        },
+        {
+          "name": "Hondo's Electrostaff",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640738475192/6004D55A77E10329CE6EABD01DE46D1BB2DF1572/",
+          "points": 10,
+          "restrictions": {
+            "include": {
+              "Unit": ["Hondo Ohnaka"]
             }
           }
         },
@@ -581,26 +625,6 @@
         }
       }],
       "Hardpoint": [{
-          "name": "Ion Cannon",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638673967/DCE9270CEAD120F4DD068CDF23C326E2371DC75C/",
-          "points": 15,
-          "restrictions": {
-            "include": {
-              "unit": ["Droideka MKII"]
-            }
-          }
-        },
-        {
-          "name": "Tri Laser Cannons",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638674750/6057A2DACA2F104F889921E46FF3AC717DE4B962/",
-          "points": 25,
-          "restrictions": {
-            "include": {
-              "unit": ["Droideka MKII"]
-            }
-          }
-        },
-        {
           "name": "Auto Loader",
           "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638973875/12A8A6DAC58F8AD954452CFC4B0DC38ED932407B/",
           "points": 5,
@@ -627,6 +651,26 @@
           "restrictions": {
             "include": {
               "unit": ["Missile Attack Launcher"]
+            }
+          }
+        },
+        {
+          "name": "Ion Cannon",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638673967/DCE9270CEAD120F4DD068CDF23C326E2371DC75C/",
+          "points": 15,
+          "restrictions": {
+            "include": {
+              "unit": ["Droideka MKII"]
+            }
+          }
+        },
+        {
+          "name": "Tri Laser Cannons",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638674750/6057A2DACA2F104F889921E46FF3AC717DE4B962/",
+          "points": 25,
+          "restrictions": {
+            "include": {
+              "unit": ["Droideka MKII"]
             }
           }
         }
@@ -779,6 +823,26 @@
           }
         },
         {
+          "name": "Inspiring Monologue",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640738474691/8D852B6879C8FF5C5F0A2883FC9A204FB8937979/",
+          "points": 5,
+          "restrictions": {
+            "include": {
+              "unit": ["Hondo Ohnaka"]
+            }
+          }
+        },
+        {
+          "name": "Lord of Pirates",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640738474167/126CF97710D8C7F9BDFBB16BF051B1F8660C7263/",
+          "points": 15,
+          "restrictions": {
+            "include": {
+              "unit": ["Hondo Ohnaka"]
+            }
+          }
+        },
+        {
           "name": "Outer Rim Modifications",
           "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735317893/3A2F6E60B2980B2608C4DA9B029E1C4B2F257560/",
           "points": 10,
@@ -909,19 +973,9 @@
         }
       ],
       "Pilot": [{
-          "name": "Veteran Mechanic",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638970650/AE724920A75FF2F1D840AC3DE707166D67EA0323/",
-          "points": 8,
-          "restrictions": {
-            "include": {
-              "unit": ["Missile Attack Launcher"]
-            }
-          }
-        },
-        {
-          "name": "Veteran Tank Pilot",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556639094597/6678DD776757AAFAFA216FB7538DA7BC35147757/",
-          "points": 5,
+          "name": "Pirate Hotshot",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556639096066/A06D6ABDA4E9B1B1F2A63187D6B24F13D5D283A5/",
+          "points": 15,
           "restrictions": {
             "include": {
               "unit": ["Canderous Class Assault Tank"]
@@ -939,9 +993,19 @@
           }
         },
         {
-          "name": "Pirate Hotshot",
-          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556639096066/A06D6ABDA4E9B1B1F2A63187D6B24F13D5D283A5/",
-          "points": 15,
+          "name": "Veteran Mechanic",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556638970650/AE724920A75FF2F1D840AC3DE707166D67EA0323/",
+          "points": 8,
+          "restrictions": {
+            "include": {
+              "unit": ["Missile Attack Launcher"]
+            }
+          }
+        },
+        {
+          "name": "Veteran Tank Pilot",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738556639094597/6678DD776757AAFAFA216FB7538DA7BC35147757/",
+          "points": 5,
           "restrictions": {
             "include": {
               "unit": ["Canderous Class Assault Tank"]
