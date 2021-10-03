@@ -553,7 +553,8 @@
               "Training": 1,
               "Comms": 1,
               "Illicit": 1,
-              "Gear": 1
+              "Gear": 1,
+              "Counterpart": 1
             },
             "minis": [{
                 "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696827920718216/511748ACB39B86DB07F412D61B8BC0706C09A5C5/",
