@@ -272,6 +272,37 @@
               "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021696642365824481/27693FC709ADF50440623C6347A11151608D5E2F/"
             }
           ]
+        },
+        {
+          "name": "Weequay Pirates",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640738627390/5CC1A1E67FA0FB421324802CFFF43AEBF54CC512/",
+          "size": "small",
+          "type": "Trooper",
+          "points": 44,
+          "speed": 2,
+          "upgrades": {
+            "Heavy Weapon": 1,
+            "Personnel": 1,
+            "Illicit": 2,
+            "Grenades": 1
+          },
+          "minis": [{
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697407436112170/7B9627FA526DBD9262F7B82066DF7F5BDF1E5B76/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697407436112951/28554A829163EDA67DDE90D1CF137C093FF8A9AC/"
+            },
+            {
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697407436113638/F31ACA002873CE6039E4A0438F29423E59383C71/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697407436112951/28554A829163EDA67DDE90D1CF137C093FF8A9AC/"
+            },
+            {
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697407436114564/440659EBF9A36F6A6E2C7E4C7AE6B2C6A6DBFABD/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697407436112951/28554A829163EDA67DDE90D1CF137C093FF8A9AC/"
+            },
+            {
+              "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697407436115021/ECE24BA2DD41BC0C0EA4638CF553ABDE1969DC4C/",
+              "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697407436112951/28554A829163EDA67DDE90D1CF137C093FF8A9AC/"
+            }
+          ]
         }],
         "Special Forces": [{
             "name": "Death Watch Fireteam",
@@ -800,6 +831,34 @@
               "unit": ["Mercenary Assault Squad"]
             }
           }
+        },
+        {
+          "name": "Stolen RPS-6 Trooper",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640738627942/4B5C5C7EE5C0A917920BC1ACD6D9BDC884C3F66F/",
+          "mini": {
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697407436116594/297A8181876F9899A0116189C171CB6DCF8F7E91/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697407436116780/2EDB6D1F02708B64292E99D8A6C1C2BA9772D6CD/"
+          },
+          "points": 25,
+          "restrictions": {
+            "include": {
+              "unit": ["Weequay Pirates"]
+            }
+          }
+        },
+        {
+          "name": "Trandoshan Blaster Trooper",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640738629805/EEDC0DDF8D9737D6CFFDBAAEDDF73C2BC39DC9AF/",
+          "mini": {
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697407436115961/DBF66375F8D2143292D9BBDC3F6FF6AB46D7AB16/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697407436112372/F530C8FD39C7DAC7766DF00F0087A82E8044DE0D/"
+          },
+          "points": 27,
+          "restrictions": {
+            "include": {
+              "unit": ["Weequay Pirates"]
+            }
+          }
         }
       ],
       "Illicit": [{
@@ -968,6 +1027,35 @@
           "restrictions": {
             "include": {
               "unit": ["Grenadier Squad"]
+            }
+          }
+        },
+        {
+          "name": "Hutt Cartel Sentry",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640738629292/FE183D473B13C247AC36F6DD253B934B09655B34/",
+          "mini": {
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697407436124726/C43B4DBB33AABF8482E19400E53948B5ED032CCB/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697407436124875/9CB0C0F06DD8F10B227161EE26DD1B55F8F5BDD4/"
+          },
+          "leader": true,
+          "points": 23,
+          "restrictions": {
+            "include": {
+              "unit": ["Weequay Pirates"]
+            }
+          }
+        },
+        {
+          "name": "Hutt Cartel Sentry",
+          "image": "http://cloud-3.steamusercontent.com/ugc/1638738640738628849/92249CF6F8DC12990B7073346AEF4DE3F3C5BB43/",
+          "mini": {
+            "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697407436114050/3985CF5B2D5C91AEF263706C20E4C84D7401F1BE/",
+            "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697407436112951/28554A829163EDA67DDE90D1CF137C093FF8A9AC/"
+          },
+          "points": 11,
+          "restrictions": {
+            "include": {
+              "unit": ["Weequay Pirates"]
             }
           }
         }
