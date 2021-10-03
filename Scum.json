@@ -507,7 +507,7 @@
           "points": 6,
           "restrictions": {
             "include": {
-              "Unit": ["Bo-Katan Kryze"]
+              "unit": ["Bo-Katan Kryze"]
             }
           }
         },
@@ -517,7 +517,7 @@
           "points": 10,
           "restrictions": {
             "include": {
-              "Unit": ["Hondo Ohnaka"]
+              "unit": ["Hondo Ohnaka"]
             }
           }
         },
