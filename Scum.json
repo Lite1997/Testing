@@ -596,10 +596,10 @@
             ]
           },
           {
-            "name": "IG-86 Sentinal Droids",
+            "name": "IG-86 Sentinel Droids",
               "image": "http://cloud-3.steamusercontent.com/ugc/1638738640742381727/F1DAD4DF93EE4BE12C4E2E2BC1D7BADF29BAD32A/",
               "size": "small",
-              "type": "Trooper",
+              "type": "Droid Trooper",
               "points": 80,
               "speed": 2,
               "upgrades": {
@@ -628,12 +628,13 @@
               ]
             },
             {
-              "name": "IG-86 Sentinal Droids",
+              "name": "IG-86 Sentinel Droids",
               "title": "Strike Team",
+              "displayName": "IG-86 Sentinel Droids (Strike Team)",
               "heavyWeaponTeam": true,
               "image": "http://cloud-3.steamusercontent.com/ugc/1638738640742381186/83833409E9638CCAE4D3E135DD7DE7C3F50BF6B2/",
               "size": "small",
-              "type": "Trooper",
+              "type": "Droid Trooper",
               "points": 25,
               "speed": 2,
               "upgrades": {
@@ -1031,7 +1032,7 @@
           "points": 30,
           "restrictions": {
             "include": {
-              "unit": ["IG-86 Sentinal Droids"]
+              "unit": ["IG-86 Sentinel Droids"]
             }
           }
         },
@@ -1172,7 +1173,7 @@
           "points": 32,
           "restrictions": {
             "include": {
-              "unit": ["IG-86 Sentinal Droids"]
+              "unit": ["IG-86 Sentinel Droids"]
             }
           }
         },
@@ -1183,10 +1184,11 @@
             "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697407432807943/6854E55A0F61C5DE97189B6CAC90202E6BC1F622/",
             "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697407432805568/E1F93A35700D25A3C33BA87AD4D64514795D6FDE/"
           },
+          "leader": true,
           "points": 34,
           "restrictions": {
             "include": {
-              "unit": ["IG-86 Sentinal Droids"]
+              "unit": ["IG-86 Sentinel Droids"]
             }
           }
         },
