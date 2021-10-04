@@ -121,7 +121,7 @@
 			{
 				"name": "LR1K Sonic Cannon",
 				"image": "http://cloud-3.steamusercontent.com/ugc/1638738640746955793/8D7F4A2BA75689F096F5D44BC4AB28B6BBDBC062/",
-				"size": "Large",
+				"size": "large",
 				"type": "Emplacement Trooper",
 				"points": 75,
 				"speed": 0,
