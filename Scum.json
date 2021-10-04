@@ -997,15 +997,10 @@
       "name": "Vornskr's",
       "image": "http://cloud-3.steamusercontent.com/ugc/1638738640741832560/CFA25E88275C65CC80ACE518A3DBDB2C4235E061/",
       "points": 15,
-      "minis": [{
+      "mini": {
         "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697620252875766/48FF7F717DEA00FCE1E830FD4FA888494433370A/",
         "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697620252875970/2006E4E0DA5EA0DEEEB1B3982D975944B8F9DC7B/"
       },
-      {
-      "mesh": "http://cloud-3.steamusercontent.com/ugc/1021697620252875766/48FF7F717DEA00FCE1E830FD4FA888494433370A/",
-        "diffuse": "http://cloud-3.steamusercontent.com/ugc/1021697620252875970/2006E4E0DA5EA0DEEEB1B3982D975944B8F9DC7B/"
-      }
-    ],
       "restrictions": {
         "include": {
           "unit": ["Beast Master"]
