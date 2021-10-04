@@ -195,10 +195,11 @@
 				"upgrades": {
 					"Comms": 1
 				},
-				"minis": {
+				"minis": [{
 					"mesh": "http://cloud-3.steamusercontent.com/ugc/1028455403167048357/2192FD561FA2D05EB86CC3AE445499640E570E21/",
 					"diffuse": "http://cloud-3.steamusercontent.com/ugc/1028455403164322367/DB9DC63C0285A43C8547D724F882063227910D89/"
 				}
+            ]
 			}
 			]
 		}
