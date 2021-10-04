@@ -295,6 +295,136 @@
 				}
 			}
 		],
+		"Comms": [
+			{
+				"name": "Proximity Signal",
+				"image": "http://cloud-3.steamusercontent.com/ugc/1638738640743573243/8687C5FADEF63558D5088A664E51ACF3C9D3D172/",
+				"points": 6,
+				"restrictions": {
+					"include": {
+						"unit": ["SD-4K Assassin Droid"]
+					}
+				}
+			}
+			],
+		"Hardpoint": [
+			{
+				"name": "Chain-Fed Missile Launcher",
+				"image": "http://cloud-3.steamusercontent.com/ugc/1638738640743540463/2FDD9391217B4D3C83489ACFC70B5D4D70D828AF/",
+				"points": 8,
+				"restrictions": {
+					"include": {
+						"unit": ["Octuptarra Tri-Droid"]
+					}
+				}
+			},
+			{
+				"name": "Magna Chain-Fed Missile Launcher",
+				"displayName": "Chain-Fed Missile Launcher",
+				"image": "http://cloud-3.steamusercontent.com/ugc/1638738640743671604/F03AE6E7CE4E84CDA2D22BBD7B6A2BE97F45437B/",
+				"points": 20,
+				"restrictions": {
+					"include": {
+						"unit": ["Octuptarra Magna Tri-Droid"]
+					}
+				}
+			},
+			{
+				"name": "Defoliator Missile Launcher",
+				"image": "http://cloud-3.steamusercontent.com/ugc/1638738640743618077/FD3FF4AAAA791E2B578007273E93859B7FA12E6E/",
+				"points": 28,
+				"restrictions": {
+					"include": {
+						"unit": ["Defoliator Deployment Tank"]
+					}
+				}
+			},
+			{
+				"name": "Enhanced Targeting Computer",
+				"image": "http://cloud-3.steamusercontent.com/ugc/1638738640743649603/CC9BB61488A9EDD358521E3E62D73A316BC07F23/",
+				"points": 8,
+				"restrictions": {
+					"include": {
+						"unit": ["IG-227 Hailfire-Class Droid Tank"]
+					}
+				}
+			},
+			{
+				"name": "Plague Carrier",
+				"image": "http://cloud-3.steamusercontent.com/ugc/1638738640743540072/7D3F2EBDCE33584ED931379EFF49B8A3E26789C7/",
+				"points": 15,
+				"restrictions": {
+					"include": {
+						"unit": ["Octuptarra Tri-Droid"]
+					}
+				}
+			},
+			{
+				"name": "Magna Plague Carrier",
+				"displayName": "Plague Carrier",
+				"image": "http://cloud-3.steamusercontent.com/ugc/1638738640743671273/2C55E19F1F47BABA103DCA4ECA92471CEA8D503A/",
+				"points": 5,
+				"restrictions": {
+					"include": {
+						"unit": ["Octuptarra Magna Tri-Droid"]
+					}
+				}
+			},
+			{
+				"name": "Probe Killer Swarm",
+				"image": "http://cloud-3.steamusercontent.com/ugc/1638738640743572146/A9C25E9C8099DED5F453F3B84B2FAC0D72FAF367/",
+				"points": 0,
+				"restrictions": {
+					"include": {
+						"unit": ["SD-4K Assassin Droid"]
+					}
+				},
+				"minis": [{
+					"mesh": "http://cloud-3.steamusercontent.com/ugc/1055478180707374292/2E17AB5EA70C93FFCBE1972EF8FDAD91A0666B41/",
+					"diffuse": "http://cloud-3.steamusercontent.com/ugc/1055478180707371561/0E33F8C27E1D74193F435DFABE59064AED0FB64B/"
+				},
+				{
+					"mesh": "http://cloud-3.steamusercontent.com/ugc/1055478180707374292/2E17AB5EA70C93FFCBE1972EF8FDAD91A0666B41/",
+					"diffuse": "http://cloud-3.steamusercontent.com/ugc/1055478180707371561/0E33F8C27E1D74193F435DFABE59064AED0FB64B/"
+				},
+				{
+					"mesh": "http://cloud-3.steamusercontent.com/ugc/1055478180707374292/2E17AB5EA70C93FFCBE1972EF8FDAD91A0666B41/",
+					"diffuse": "http://cloud-3.steamusercontent.com/ugc/1055478180707371561/0E33F8C27E1D74193F435DFABE59064AED0FB64B/"
+				}]
+			},
+			{
+				"name": "Proton Missile Launcher",
+				"image": "http://cloud-3.steamusercontent.com/ugc/1638738640743617683/7B7D562698834D3ACEC51A5BC5BC6B148F4C55A4/",
+				"points": 20,
+				"restrictions": {
+					"include": {
+						"unit": ["Defoliator Deployment Tank"]
+					}
+				}
+			},
+			{
+				"name": "Rapid Fire Launchers",
+				"image": "http://cloud-3.steamusercontent.com/ugc/1638738640743649159/0BAF4A7EC12DAC1AEB13A22120D2D3B1FA1BC0B6/",
+				"points": 14,
+				"restrictions": {
+					"include": {
+						"unit": ["IG-227 Hailfire-Class Droid Tank"]
+					}
+				}
+			},
+			{
+				"name": "Transport Rack",
+				"image": "http://cloud-3.steamusercontent.com/ugc/1638738640743692647/47DDE4B573774D76E0DD110994DEEF3C2F0406BB/",
+				"points": 20,
+				"restrictions": {
+					"include": {
+						"unit": ["HMP Droid Gunship"]
+					}
+					
+				}
+				
+			}
+			],
 		"Heavy Weapon": [
 			{
 				"name": "CY-M Carbine Geonosian",
@@ -385,136 +515,18 @@
 			}
 		}
 		],
-		"Hardpoint": [
-		{
-			"name": "Chain-Fed Missile Launcher",
-			"image": "http://cloud-3.steamusercontent.com/ugc/1638738640743540463/2FDD9391217B4D3C83489ACFC70B5D4D70D828AF/",
-			"points": 8,
-			"restrictions": {
-				"include": {
-					"unit": ["Octuptarra Tri-Droid"]
-				}
-			}
-		},
-		{
-			"name": "Magna Chain-Fed Missile Launcher",
-            "displayName": "Chain-Fed Missile Launcher",
-			"image": "http://cloud-3.steamusercontent.com/ugc/1638738640743671604/F03AE6E7CE4E84CDA2D22BBD7B6A2BE97F45437B/",
-			"points": 20,
-			"restrictions": {
-				"include": {
-					"unit": ["Octuptarra Magna Tri-Droid"]
-				}
-			}
-		},
-		{
-			"name": "Defoliator Missile Launcher",
-			"image": "http://cloud-3.steamusercontent.com/ugc/1638738640743618077/FD3FF4AAAA791E2B578007273E93859B7FA12E6E/",
-			"points": 28,
-			"restrictions": {
-				"include": {
-					"unit": ["Defoliator Deployment Tank"]
-				}
-			}
-		},
-		{
-			"name": "Enhanced Targeting Computer",
-			"image": "http://cloud-3.steamusercontent.com/ugc/1638738640743649603/CC9BB61488A9EDD358521E3E62D73A316BC07F23/",
-			"points": 8,
-			"restrictions": {
-				"include": {
-					"unit": ["IG-227 Hailfire-Class Droid Tank"]
-				}
-			}
-		},
-		{
-			"name": "Plague Carrier",
-			"image": "http://cloud-3.steamusercontent.com/ugc/1638738640743540072/7D3F2EBDCE33584ED931379EFF49B8A3E26789C7/",
-			"points": 15,
-			"restrictions": {
-				"include": {
-					"unit": ["Octuptarra Tri-Droid"]
-				}
-			}
-		},
-		{
-			"name": "Magna Plague Carrier",
-            "displayName": "Plague Carrier",
-			"image": "http://cloud-3.steamusercontent.com/ugc/1638738640743671273/2C55E19F1F47BABA103DCA4ECA92471CEA8D503A/",
-			"points": 5,
-			"restrictions": {
-				"include": {
-					"unit": ["Octuptarra Magna Tri-Droid"]
-				}
-			}
-		},
-		{
-			"name": "Probe Killer Swarm",
-			"image": "http://cloud-3.steamusercontent.com/ugc/1638738640743572146/A9C25E9C8099DED5F453F3B84B2FAC0D72FAF367/",
-			"points": 0,
-			"restrictions": {
-				"include": {
-					"unit": ["SD-4K Assassin Droid"]
-				}
-			},
-			"minis": [{
-				"mesh": "http://cloud-3.steamusercontent.com/ugc/1055478180707374292/2E17AB5EA70C93FFCBE1972EF8FDAD91A0666B41/",
-				"diffuse": "http://cloud-3.steamusercontent.com/ugc/1055478180707371561/0E33F8C27E1D74193F435DFABE59064AED0FB64B/"
-			},
+		"Training":[
 			{
-				"mesh": "http://cloud-3.steamusercontent.com/ugc/1055478180707374292/2E17AB5EA70C93FFCBE1972EF8FDAD91A0666B41/",
-				"diffuse": "http://cloud-3.steamusercontent.com/ugc/1055478180707371561/0E33F8C27E1D74193F435DFABE59064AED0FB64B/"
-			},
-			{
-				"mesh": "http://cloud-3.steamusercontent.com/ugc/1055478180707374292/2E17AB5EA70C93FFCBE1972EF8FDAD91A0666B41/",
-				"diffuse": "http://cloud-3.steamusercontent.com/ugc/1055478180707371561/0E33F8C27E1D74193F435DFABE59064AED0FB64B/"
-			}]
-		},
-		{
-			"name": "Proton Missile Launcher",
-			"image": "http://cloud-3.steamusercontent.com/ugc/1638738640743617683/7B7D562698834D3ACEC51A5BC5BC6B148F4C55A4/",
-			"points": 20,
+			"name": "Geonosian Brain Worms",
+			"image": "http://cloud-3.steamusercontent.com/ugc/1638738640746957609/4564866DD4465ADC1224AC20C8A82A2895D19FE9/",
+			"points": -12,
 			"restrictions": {
 				"include": {
-					"unit": ["Defoliator Deployment Tank"]
+					"unit": ["Geonosian Warriors"]
 				}
 			}
-		},
-		{
-			"name": "Rapid Fire Launchers",
-			"image": "http://cloud-3.steamusercontent.com/ugc/1638738640743649159/0BAF4A7EC12DAC1AEB13A22120D2D3B1FA1BC0B6/",
-			"points": 14,
-			"restrictions": {
-				"include": {
-					"unit": ["IG-227 Hailfire-Class Droid Tank"]
-				}
 			}
-		},
-		{
-			"name": "Transport Rack",
-			"image": "http://cloud-3.steamusercontent.com/ugc/1638738640743692647/47DDE4B573774D76E0DD110994DEEF3C2F0406BB/",
-			"points": 20,
-			"restrictions": {
-				"include": {
-					"unit": ["HMP Droid Gunship"]
-				}
-				
-			}
-			
-		}
 		],
-		"Comms": [
-		{
-			"name": "Proximity Signal",
-			"image": "http://cloud-3.steamusercontent.com/ugc/1638738640743573243/8687C5FADEF63558D5088A664E51ACF3C9D3D172/",
-			"points": 6,
-			"restrictions": {
-				"include": {
-					"unit": ["SD-4K Assassin Droid"]
-				}
-			}
-		}
-		]
-	},
 	"commands": {}
+	}
 }
