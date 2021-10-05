@@ -14,7 +14,7 @@
                   "Training": 2,
                   "Comms": 1,
                   "Gear": 1,
-                  "Armament": 1
+                  "Armament": 2
                 },
                 "minis": [{
                   "mesh": "http://cloud-3.steamusercontent.com/ugc/1021696737982271779/BBF522FC361772E237872CCC9E983F4A7CD58838/",
@@ -40,7 +40,7 @@
         ],
         "Special Forces": [
             {
-              "name": "Imperical Super Commandos",
+              "name": "Imperical Supercommandos",
               "image": "http://cloud-3.steamusercontent.com/ugc/1638738640751938598/EA4F3008844B6528784403937811449891C14FCE/",
               "size": "small",
               "type": "Mandalorian Trooper",
@@ -93,7 +93,7 @@
               "name": "Phase II Darktroopers",
               "image": "http://cloud-3.steamusercontent.com/ugc/1638738640751974310/FADC3793016675ADF27F22082439F243F5CFF323/",
               "size": "medium",
-              "type": "Ground Vehicle",
+              "type": "Droid Trooper",
               "points": 110,
               "speed": 1,
               "upgrades": {
@@ -117,7 +117,7 @@
             {
               "name": "XX-7 Heavy Turbo Laser",
               "image": "http://cloud-3.steamusercontent.com/ugc/1638738640751922250/1D0ACF27CE08CFA865080B62DD8C0E12B87CA802/",
-              "size": "large",
+              "size": "huge",
               "type": "Emplacement Trooper",
               "points": 90,
               "speed": 0,
