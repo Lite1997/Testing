@@ -14,7 +14,8 @@
               "Command": 1,
               "Comms": 1,
               "Gear": 1,
-              "Armament": 1
+              "Armament": 1,
+              "Counterpart": 1
             },
             "minis": [
               {
@@ -52,7 +53,8 @@
               "Command": 1,
               "Training": 1,
               "Comms": 1,
-              "Gear": 1
+              "Gear": 1,
+              "Counterpart": 1
             },
             "minis": [
               {
@@ -92,7 +94,8 @@
               "Force": 1,
               "Training": 1,
               "Gear": 1,
-              "Armament": 1
+              "Armament": 1,
+              "Counterpart": 1
             },
             "minis": [
               {
@@ -317,6 +320,7 @@
             "points": 45,
             "speed": 2,
             "upgrades": {
+              "Heavy Weapon": 1,
               "Comms": 1,
               "Gear": 2
             },
@@ -337,7 +341,8 @@
             "speed": 2,
             "upgrades": {
               "Comms": 1,
-              "Gear": 2
+              "Gear": 2,
+              "Counterpart": 1
             },
             "minis": [
               {
@@ -446,7 +451,7 @@
         "points": 6,
         "restrictions": {
           "include": {
-            "unit": ["http://cloud-3.steamusercontent.com/ugc/1021698068155819425/F5A156E66B986DA76D65B649D689496C6A4BB79A/"]
+            "unit": ["Salvaged B2 Battle Droids"]
           }
         }
       }
