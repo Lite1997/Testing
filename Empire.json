@@ -1,11 +1,6 @@
 {
     "units": {
       "Empire": {
-        "Commander": [
-            {
-
-              }
-            ],
         "Operative": [
             {
                 "name": "Gar Saxon",
@@ -41,11 +36,6 @@
                     "pip": 3
                   }
                 ]
-            }
-        ],
-        "Corps": [
-            {
-
             }
         ],
         "Special Forces": [
@@ -144,11 +134,6 @@
     }
 },
 "upgrades": {
-    "Armament": [
-        {
-
-        }
-    ],
     "Gear": [
       {
           "name": "Jump pack",
