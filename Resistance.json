@@ -469,7 +469,7 @@
             "restrictions": {
               "include": {
                   "faction": ["Resistance"],
-                "unit": ["Rose Tico", "Rey", "Poe Dameron", "Finn"]
+                "unit": ["Rose Tico", "Rey", "Poe Dameron", "Finn", "R2-D2"]
               }
             }
           },
