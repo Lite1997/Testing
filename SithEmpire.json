@@ -42,7 +42,7 @@
             "points": 120,
             "speed": 2,
             "upgrades": {
-              "Force": 1
+              "Force": 2
             },
             "minis": [{
               "mesh": "http://cloud-3.steamusercontent.com/ugc/1007061608885833891/AE635515661DD84861ADF0CF4FC48052FD3DEF87/",
@@ -273,6 +273,70 @@
     }
 },
     "upgrades": {
+        "Armament": [
+          {
+            "name": "Elite Wrist Mounted Flamethrower",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640412575/1F3B56925DC71E5FAFDD405CF117B72CC0DB3B42/",
+            "points": 10,
+            "restrictions": {
+              "include": {
+                "type": ["Mandalorian Trooper"],
+                "rank": ["Commander", "Operative"]
+              }
+            }
+          },
+          {
+            "name": "Gauntlet Blades",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640410174/FF136859D9C64EFC2B33CEDF111204596228A4B0/",
+            "points": 6,
+            "restrictions": {
+              "include": {
+                "unit": ["Bo-Katan Kryze"]
+              }
+            }
+          },
+          {
+            "name": "Wrist Rocket",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640428446/AE6DB75F1A3643AF7DCB7CA1BA8DAFF87E7A5C8A/",
+            "points": 6,
+            "restrictions": {
+              "include": {
+                "type": ["Mandalorian Trooper"]
+              }
+            }
+          },
+          {
+            "name": "Whistling Birds",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640411728/A3BCBA7C1B49EE5B996A55A8FC6CB581A9EAA96C/",
+            "points": 10,
+            "restrictions": {
+              "include": {
+                "type": ["Mandalorian Trooper"],
+                "rank": ["Commander", "Operative"]
+              }
+            }
+          },
+          {
+            "name": "Wrist Mounted Blasters",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640413937/745B5BEAD23640A8222A54287029ACF70F9A81EE/",
+            "points": 10,
+            "restrictions": {
+              "include": {
+                "type": ["Mandalorian Trooper"]
+              }
+            }
+          },
+          {
+            "name": "Wrist Mounted Flamethrower",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738556640416270/08971192288A83DD208F4D91D02703E094090133/",
+            "points": 10,
+            "restrictions": {
+              "include": {
+                "type": ["Mandalorian Trooper"]
+              }
+            }
+          }
+        ],
         "Force": [
             {
                 "name": "Acolyte Force Lightning",
@@ -295,19 +359,8 @@
                   }
                 }
               },
-              {
-                "name": "Face Barrier",
-                "image": "http://cloud-3.steamusercontent.com/ugc/1776099479278092049/6C069197CFBB0D4687D156D9661876EC048BC265/",
-                "points": 5,
-                "restrictions": {
-                  "include": {
-                    "faction": ["Sith Empire"]
-                  }
-                }
-              },
             {
               "name": "Maglus Force Lightning",
-              "displayName": "Force Lightning",
               "image": "http://cloud-3.steamusercontent.com/ugc/1776099479277562964/22A352A0E0EF8FE27B1DF1F19C08A80CE1564B3C/",
               "points": 5,
               "restrictions": {
