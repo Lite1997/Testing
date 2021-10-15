@@ -4825,26 +4825,22 @@
     "commands": {
         "Resistance": [
           {
-            "name": "RE Ambush",
-            "displayname": "Ambush",
+            "name": "Ambush",
             "image": "http://cloud-3.steamusercontent.com/ugc/1638738640747367511/0D64123967CBCB3E57E64E324321483E2E9A92A3/",
             "pip": 1
           },
           {
-            "name": "RE Push",
-            "displayname": "Push",
+            "name": "Push",
             "image": "http://cloud-3.steamusercontent.com/ugc/1638738640747367841/8BFBD7B304352B113D73EA1163B5FB6A945CFFEA/",
             "pip": 2
           },
           {
-            "name": "RE Assault",
-            "displayname": "Assault",
+            "name": "Assault",
             "image": "http://cloud-3.steamusercontent.com/ugc/1638738640747368914/291F77D9D709AABDD09048587737386AB26630E6/",
             "pip": 3
           },
           {
-            "name": "RE Standing Orders",
-            "displayname": "Standing Orders",
+            "name": "Standing Orders",
             "image": "http://cloud-3.steamusercontent.com/ugc/1638738640747368408/17A434AB411C8F18417841375F88746E01E0924A/",
             "pip": 4
           }
@@ -4863,26 +4859,22 @@
           ],
         "First Order": [
             {
-              "name": "FO Ambush",
-              "displayname": "Ambush",
+              "name": "Ambush",
               "image": "http://cloud-3.steamusercontent.com/ugc/1638738640747367511/0D64123967CBCB3E57E64E324321483E2E9A92A3/",
               "pip": 1
             },
             {
-              "name": "FO Push",
-              "displayname": "Push",
+              "name": "Push",
               "image": "http://cloud-3.steamusercontent.com/ugc/1638738640747367841/8BFBD7B304352B113D73EA1163B5FB6A945CFFEA/",
               "pip": 2
             },
             {
-              "name": "FO Assault",
-              "displayname": "Assault",
+              "name": "Assault",
               "image": "http://cloud-3.steamusercontent.com/ugc/1638738640747368914/291F77D9D709AABDD09048587737386AB26630E6/",
               "pip": 3
             },
             {
-              "name": "FO Standing Orders",
-              "displayname": "Standing Orders",
+              "name": "Standing Orders",
               "image": "http://cloud-3.steamusercontent.com/ugc/1638738640747368408/17A434AB411C8F18417841375F88746E01E0924A/",
               "pip": 4
             }
