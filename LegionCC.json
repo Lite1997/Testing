@@ -999,7 +999,7 @@
             ],
             "Support": [
               {
-                "name": "Orbak Riders ",
+                "name": "Orbak Riders",
                 "heavyWeaponTeam": true,
                 "image": "http://cloud-3.steamusercontent.com/ugc/1022821770986742661/33B78DBDC2B4A466B810D5299DB14745FAFB1E68/",
                 "size": "medium",
@@ -2700,16 +2700,6 @@
           }
       ],
       "Command": [
-        {
-            "name": "B1's Datapad",
-            "image": "http://cloud-3.steamusercontent.com/ugc/1021698068155822603/B74DFBDE71FC462A482C92AF02C57AD2C6373E0F/",
-            "points": 6,
-            "restrictions": {
-              "include": {
-                "unit": ["Salvaged B2 Battle Droids"]
-              }
-            }
-          },
      {
         "name": "Racketeering",
         "image": "http://cloud-3.steamusercontent.com/ugc/1638738505735072829/84C080C8B919D06884AF3BC12ADDB58B524C5271/",
@@ -2722,6 +2712,16 @@
       }
     ],
     "Comms": [
+      {
+        "name": "B1's Datapad",
+        "image": "http://cloud-3.steamusercontent.com/ugc/1021698068155822603/B74DFBDE71FC462A482C92AF02C57AD2C6373E0F/",
+        "points": 6,
+        "restrictions": {
+          "include": {
+            "unit": ["Salvaged B2 Battle Droids"]
+          }
+        }
+      },
         {
             "name": "Proximity Signal",
             "image": "http://cloud-3.steamusercontent.com/ugc/1638738640743573243/8687C5FADEF63558D5088A664E51ACF3C9D3D172/",
@@ -2991,12 +2991,7 @@
           {
               "name": "GNK-series Power Droid",
               "image": "http://cloud-3.steamusercontent.com/ugc/1638738640747374218/EBE238DB2CCD3F06AC1CC96325D04FEE2B5ECD1C/",
-              "points": 5,
-              "restrictions": {
-                  "include": {
-                    "type": ["Emplacement Trooper"]
-                  }
-                }
+              "points": 5
             },
           {
             "name": "Ion Generator",
@@ -3006,7 +3001,12 @@
         {
             "name": "Scavenged Generator",
             "image": "http://cloud-3.steamusercontent.com/ugc/1022824296871788518/1BB5B0A6D3E8BDA3F3E66F6ED7B4E30BC24C4C3E/",
-            "points": 10
+            "points": 10,
+            "restrictions": {
+              "include": {
+                "faction": ["Resistance", "Rebel"]
+              }
+            }
           },
         {
           "name": "Targeted Generator",
@@ -4825,22 +4825,26 @@
     "commands": {
         "Resistance": [
           {
-            "name": "Ambush",
+            "name": "RE Ambush",
+            "displayname": "Ambush",
             "image": "http://cloud-3.steamusercontent.com/ugc/1638738640747367511/0D64123967CBCB3E57E64E324321483E2E9A92A3/",
             "pip": 1
           },
           {
-            "name": "Push",
+            "name": "RE Push",
+            "displayname": "Push",
             "image": "http://cloud-3.steamusercontent.com/ugc/1638738640747367841/8BFBD7B304352B113D73EA1163B5FB6A945CFFEA/",
             "pip": 2
           },
           {
-            "name": "Assault",
+            "name": "RE Assault",
+            "displayname": "Assault",
             "image": "http://cloud-3.steamusercontent.com/ugc/1638738640747368914/291F77D9D709AABDD09048587737386AB26630E6/",
             "pip": 3
           },
           {
-            "name": "Standing Orders",
+            "name": "RE Standing Orders",
+            "displayname": "Standing Orders",
             "image": "http://cloud-3.steamusercontent.com/ugc/1638738640747368408/17A434AB411C8F18417841375F88746E01E0924A/",
             "pip": 4
           }
@@ -4859,22 +4863,26 @@
           ],
         "First Order": [
             {
-              "name": "Ambush",
+              "name": "FO Ambush",
+              "displayname": "Ambush",
               "image": "http://cloud-3.steamusercontent.com/ugc/1638738640747367511/0D64123967CBCB3E57E64E324321483E2E9A92A3/",
               "pip": 1
             },
             {
-              "name": "Push",
+              "name": "FO Push",
+              "displayname": "Push",
               "image": "http://cloud-3.steamusercontent.com/ugc/1638738640747367841/8BFBD7B304352B113D73EA1163B5FB6A945CFFEA/",
               "pip": 2
             },
             {
-              "name": "Assault",
+              "name": "FO Assault",
+              "displayname": "Assault",
               "image": "http://cloud-3.steamusercontent.com/ugc/1638738640747368914/291F77D9D709AABDD09048587737386AB26630E6/",
               "pip": 3
             },
             {
-              "name": "Standing Orders",
+              "name": "FO Standing Orders",
+              "displayname": "Standing Orders",
               "image": "http://cloud-3.steamusercontent.com/ugc/1638738640747368408/17A434AB411C8F18417841375F88746E01E0924A/",
               "pip": 4
             }
