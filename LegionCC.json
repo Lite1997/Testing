@@ -2974,7 +2974,7 @@
           },
           {
             "name": "Force Lightning",
-            "image": "http://cloud-3.steamusercontent.com/ugc/1638738640747371606/231C69EF773D74B95CCC5EB34F1EB96C1119FA98/vvvvvvvvvvvvvv",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1638738640747371606/231C69EF773D74B95CCC5EB34F1EB96C1119FA98/",
             "points": 12,
             "restrictions": {
               "include": {
@@ -4904,10 +4904,23 @@
         {
             "name": "Conditioning",
             "image": "http://cloud-3.steamusercontent.com/ugc/1027325137553694727/5A2D2C8BBA135A33871093554B186278F54ACF70/",
+            "points": 5,
+            "restrictions": {
+              "include": {
+                "faction": ["First Order"],
+                "rank": ["Corps", "Special Forces"]
+              }
+            }
+          },
+          {
+            "name": "Conditioning other",
+            "displayname": "Conditioning",
+            "image": "http://cloud-3.steamusercontent.com/ugc/1027325137553694727/5A2D2C8BBA135A33871093554B186278F54ACF70/",
             "points": 10,
             "restrictions": {
               "include": {
-                "faction": ["First Order"]
+                "faction": ["First Order"],
+                "rank": ["Commander", "Operative", "Support", "Heavy"]
               }
             }
           },
