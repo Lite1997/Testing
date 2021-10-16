@@ -2602,7 +2602,7 @@
           },
           {
             "name": "Anakin's Lightsaber Rey",
-            "displayname": "Anakin's Lightsaber",
+            "displayName": "Anakin's Lightsaber",
             "image": "http://cloud-3.steamusercontent.com/ugc/1027324932753002794/C0A0C19E79DAF7B4B11E6DCEE218AB2F4C385966/",
             "points": 20,
             "restrictions": {
@@ -4914,7 +4914,7 @@
           },
           {
             "name": "Conditioning other",
-            "displayname": "Conditioning",
+            "displayName": "Conditioning",
             "image": "http://cloud-3.steamusercontent.com/ugc/1027325137553694727/5A2D2C8BBA135A33871093554B186278F54ACF70/",
             "points": 10,
             "restrictions": {
