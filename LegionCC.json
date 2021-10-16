@@ -2729,6 +2729,10 @@
         {
             "name": "Quicksilver Baton",
             "image": "http://cloud-3.steamusercontent.com/ugc/1021696515357818157/FAAC5F19359BE39BD499A8BA18F7D790FD5A7562/",
+            "flip": {
+              "name": "Phasma's SE-44 Blaster",
+              "image": "http://cloud-3.steamusercontent.com/ugc/1021696515357818157/FAAC5F19359BE39BD499A8BA18F7D790FD5A7562/"
+            },
             "points": 10,
             "restrictions": {
               "include": {
