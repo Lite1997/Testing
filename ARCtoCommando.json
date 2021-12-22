@@ -108,7 +108,7 @@
           "include": {
             "faction": ["Republic"],
             "unit": ["ARC Troopers"],
-            "type": ["Corps"]
+            "rank": ["Corps"]
           }
         }
       }
