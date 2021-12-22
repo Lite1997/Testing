@@ -63,6 +63,7 @@
 ]
 }
     },
+    "upgrades": {
     "Heavy Weapon": [
     {
         "name": "DC-15X ARC Trooper",
@@ -118,4 +119,5 @@
         }
       }
     ]
+}
 }
